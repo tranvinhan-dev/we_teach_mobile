@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/arvo</item>
+        <item>@font/baloo</item>
+        <item>@font/biryani</item>
+        <item>@font/capriola</item>
+        <item>@font/chivo</item>
+        <item>@font/chivo_black</item>
+        <item>@font/marko_one</item>
+        <item>@font/nunito</item>
+        <item>@font/nunito_bold</item>
+    </array>
+</resources>
