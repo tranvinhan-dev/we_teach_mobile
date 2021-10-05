@@ -70,13 +70,6 @@
                 android:layout_margin="10dp"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/imageView10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/ic_baseline_notifications_24" />
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -235,7 +228,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/nunito_bold"
-                    android:text="Popular Tutor"
+                    android:text="Top Rated Tutors"
                     android:textColor="@color/black"
                     android:textSize="24sp" />
 
@@ -269,7 +262,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/icons8_team_fclyt7lw5wg_unsplash" />
+                            app:srcCompat="@drawable/co_ha_anh_phuong_3245_1605009651" />
 
                         <LinearLayout
                             android:layout_width="135dp"
@@ -300,10 +293,31 @@
                                 android:id="@+id/textView10"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="20dp"
                                 android:fontFamily="@font/nunito"
                                 android:text="$150/session"
                                 android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView112"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/ic_baseline_star_24"
+                                    app:tint="@color/main_theme" />
+
+                                <TextView
+                                    android:id="@+id/textView491"
+                                    android:layout_width="112dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="4.7"
+                                    android:textColor="@color/main_theme" />
+                            </LinearLayout>
+
                         </LinearLayout>
 
                         <TextView
@@ -343,7 +357,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/icons8_team_t8yslzjhrhk_unsplash" />
+                            app:srcCompat="@drawable/hua_thanh_hoa" />
 
                         <LinearLayout
                             android:layout_width="135dp"
@@ -374,10 +388,30 @@
                                 android:id="@+id/textView3"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="20dp"
                                 android:fontFamily="@font/nunito"
                                 android:text="$200/session"
                                 android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView113"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/ic_baseline_star_24"
+                                    app:tint="@color/main_theme" />
+
+                                <TextView
+                                    android:id="@+id/textView493"
+                                    android:layout_width="112dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="5.0"
+                                    android:textColor="@color/main_theme" />
+                            </LinearLayout>
                         </LinearLayout>
 
                         <TextView
@@ -416,7 +450,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/vince_fleming__thuiss23ci_unsplash" />
+                            app:srcCompat="@drawable/_858_ung_vien_giao_su_tre_nhat_viet_nam_duoc_phe_chuan_nam_nay_37_tuoi_1_1607311411573" />
 
                         <LinearLayout
                             android:layout_width="135dp"
@@ -447,10 +481,30 @@
                                 android:id="@+id/textView102"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="20dp"
                                 android:fontFamily="@font/nunito"
                                 android:text="$150/session"
                                 android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/ic_baseline_star_24"
+                                    app:tint="@color/main_theme" />
+
+                                <TextView
+                                    android:id="@+id/textView49"
+                                    android:layout_width="112dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="4.8"
+                                    android:textColor="@color/main_theme" />
+                            </LinearLayout>
                         </LinearLayout>
 
                         <TextView
