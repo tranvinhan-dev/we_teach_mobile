@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeTeach</string>
+    <string name="app_slogan">Best place for tutor to teaching !</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="htSearch">Searching for tutor</string>
+
+</resources>
