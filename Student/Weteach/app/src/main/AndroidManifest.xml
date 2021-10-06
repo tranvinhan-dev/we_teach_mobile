@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
+            android:name=".StudentProfileActivity"
+            android:exported="true" />
+        <activity
             android:name=".MeetTeacherActivity"
             android:exported="true" />
         <activity
