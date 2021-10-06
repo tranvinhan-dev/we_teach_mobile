@@ -21,10 +21,10 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/ivAvatar"
                 android:layout_width="36dp"
                 android:layout_height="38dp"
-                app:srcCompat="@drawable/avatar_380_456332" />
+                app:srcCompat="@drawable/po_6_teacher" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -93,7 +93,7 @@
                         android:layout_height="match_parent"
                         android:background="@color/edit_text"
                         android:ems="10"
-                        android:hint="Search Tutor"
+                        android:hint="Searching for teachers"
                         android:inputType="textPersonName"
                         android:paddingLeft="20dp"
                         tools:ignore="TouchTargetSizeCheck" />
@@ -202,7 +202,8 @@
                         android:layout_width="10dp"
                         android:layout_height="52dp"
                         android:layout_weight="1"
-                        android:src="@drawable/avatar_373_456325" />
+                        android:src="@drawable/po_7_teacher"
+                        app:srcCompat="@drawable/po_7_teacher" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -221,7 +222,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/nunito_bold"
-                    android:text="Top Rated Tutors"
+                    android:text="Top Rated Teachers"
                     android:textColor="@color/black"
                     android:textSize="24sp" />
 
@@ -246,7 +247,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="133dp"
-                        android:background="@drawable/v915_wit_007_l_1_1"
+                        android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -255,7 +256,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/co_ha_anh_phuong_3245_1605009651" />
+                            app:srcCompat="@drawable/po_1" />
 
                         <LinearLayout
                             android:layout_width="135dp"
@@ -341,7 +342,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="133dp"
-                        android:background="@drawable/v915_wit_007_l_1_1"
+                        android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -350,7 +351,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/hua_thanh_hoa" />
+                            app:srcCompat="@drawable/po_2" />
 
                         <LinearLayout
                             android:layout_width="135dp"
@@ -434,7 +435,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="133dp"
-                        android:background="@drawable/v915_wit_007_l_1_1"
+                        android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -443,7 +444,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/_858_ung_vien_giao_su_tre_nhat_viet_nam_duoc_phe_chuan_nam_nay_37_tuoi_1_1607311411573" />
+                            app:srcCompat="@drawable/po_3" />
 
                         <LinearLayout
                             android:layout_width="135dp"

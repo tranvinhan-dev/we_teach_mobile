@@ -77,6 +77,15 @@ public class HomeFragment extends Fragment {
                 startActivity(_intent);
             }
         });
+        ImageView ivAvatar = rootView.findViewById(R.id.ivAvatar);
+        ivAvatar.setClickable(true);
+        ivAvatar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent _intent = new Intent(getActivity(), StudentProfileActivity.class);
+                startActivity(_intent);
+            }
+        });
         return rootView;
 
     }

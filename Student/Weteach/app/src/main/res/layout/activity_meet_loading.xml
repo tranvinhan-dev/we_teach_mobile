@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="552dp"
             android:background="@drawable/roundededittext"
-            app:srcCompat="@drawable/juan_encalada_wc7kiho13fc_unsplash" />
+            app:srcCompat="@drawable/po_4" />
 
     </androidx.cardview.widget.CardView>
 
@@ -49,7 +49,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/v915_wit_007_l_1_1"
+            android:background="@drawable/bg_1_teacher"
             android:orientation="horizontal">
 
             <ImageView
@@ -58,7 +58,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/hua_thanh_hoa" />
+                app:srcCompat="@drawable/po_1" />
 
             <LinearLayout
                 android:layout_width="135dp"
@@ -154,7 +154,7 @@
             android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:backgroundTint="@color/teal_200"
-            android:text="Tham Gia Ngay" />
+            android:text="JOIN NOW" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

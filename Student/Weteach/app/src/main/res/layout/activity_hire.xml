@@ -91,17 +91,18 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageView2a"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         app:srcCompat="@drawable/icons8_collage_96px" />
 
                     <TextView
-                        android:id="@+id/textView81"
+                        android:id="@+id/textView81a"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Tất cả"
-                        android:textAlignment="center" />
+                        android:text="All"
+                        android:textAlignment="center"
+                        android:textSize="10sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -110,17 +111,18 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageView2b"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         app:srcCompat="@drawable/icons8_1_96px" />
 
                     <TextView
-                        android:id="@+id/textView81"
+                        android:id="@+id/textView81b"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Cấp 1"
-                        android:textAlignment="center" />
+                        android:text="Primary School"
+                        android:textAlignment="center"
+                        android:textSize="10sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -129,17 +131,18 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageView2c"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         app:srcCompat="@drawable/icons8_2_96px" />
 
                     <TextView
-                        android:id="@+id/textView81"
+                        android:id="@+id/textView81c"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Cấp 2"
-                        android:textAlignment="center" />
+                        android:text="Secondary School"
+                        android:textAlignment="center"
+                        android:textSize="10sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -148,17 +151,18 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageView2d"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         app:srcCompat="@drawable/icons8_3_96px" />
 
                     <TextView
-                        android:id="@+id/textView81"
+                        android:id="@+id/textView81d"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Cấp 3"
-                        android:textAlignment="center" />
+                        android:text="High School"
+                        android:textAlignment="center"
+                        android:textSize="10sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -176,8 +180,9 @@
                         android:id="@+id/textView81"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Ở ngoài"
-                        android:textAlignment="center" />
+                        android:text="Other"
+                        android:textAlignment="center"
+                        android:textSize="10sp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -221,7 +226,8 @@
                     android:layout_height="match_parent"
                     android:layout_margin="2dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/ic_baseline_filter_alt_24" />
+                    app:srcCompat="@drawable/ic_baseline_filter_alt_24"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
             </LinearLayout>
 
@@ -258,7 +264,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="133dp"
-                        android:background="@drawable/v915_wit_007_l_1_1"
+                        android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -267,7 +273,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/icons8_team_fclyt7lw5wg_unsplash" />
+                            app:srcCompat="@drawable/po_1" />
 
                         <LinearLayout
                             android:layout_width="135dp"
@@ -332,7 +338,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="133dp"
-                        android:background="@drawable/v915_wit_007_l_1_1"
+                        android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -341,7 +347,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/icons8_team_t8yslzjhrhk_unsplash" />
+                            app:srcCompat="@drawable/po_2" />
 
                         <LinearLayout
                             android:layout_width="135dp"
@@ -406,7 +412,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="133dp"
-                        android:background="@drawable/v915_wit_007_l_1_1"
+                        android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -415,7 +421,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/vince_fleming__thuiss23ci_unsplash" />
+                            app:srcCompat="@drawable/po_3" />
 
                         <LinearLayout
                             android:layout_width="135dp"

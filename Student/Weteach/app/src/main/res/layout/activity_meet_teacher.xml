@@ -121,7 +121,7 @@
             android:layout_width="378dp"
             android:layout_height="match_parent"
             android:background="@drawable/round_video_call"
-            app:srcCompat="@drawable/_01600cogiaominhthu2_16269293157551054259040" />
+            app:srcCompat="@drawable/po_5" />
 
     </androidx.cardview.widget.CardView>
 
@@ -147,7 +147,7 @@
             android:layout_width="94dp"
             android:layout_height="142dp"
             android:background="@drawable/roundededittext"
-            app:srcCompat="@drawable/juan_encalada_wc7kiho13fc_unsplash" />
+            app:srcCompat="@drawable/po_4" />
     </androidx.cardview.widget.CardView>
 
     <ScrollView
