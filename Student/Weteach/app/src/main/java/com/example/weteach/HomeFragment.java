@@ -8,7 +8,6 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 
 /**
@@ -66,6 +65,15 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent _intent = new Intent(getActivity(), HireActivity.class);
+                startActivity(_intent);
+            }
+        });
+        ImageView ivNotification = rootView.findViewById(R.id.ivNotification2);
+        ivNotification.setClickable(true);
+        ivNotification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent _intent = new Intent(getActivity(), NotificationActivity.class);
                 startActivity(_intent);
             }
         });

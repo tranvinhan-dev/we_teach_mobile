@@ -20,7 +20,7 @@
             android:layout_height="61dp">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/ivNotification2"
                 android:layout_width="40dp"
                 android:layout_height="39dp"
                 android:layout_margin="10dp"

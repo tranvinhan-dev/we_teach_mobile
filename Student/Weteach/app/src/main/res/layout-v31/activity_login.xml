@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/ivNotification2"
         android:layout_width="410dp"
         android:layout_height="373dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -29,7 +29,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="@+id/ivNotification2" />
 
     <Button
         android:id="@+id/btnLogin2"

@@ -82,31 +82,147 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_margin="20dp"
+                android:layout_height="82dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        app:srcCompat="@drawable/icons8_collage_96px" />
+
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tất cả"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="88dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        app:srcCompat="@drawable/icons8_1_96px" />
+
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cấp 1"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        app:srcCompat="@drawable/icons8_2_96px" />
+
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cấp 2"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="86dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        app:srcCompat="@drawable/icons8_3_96px" />
+
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cấp 3"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        app:srcCompat="@drawable/icons8_student_male_96px" />
+
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ở ngoài"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:background="@drawable/roundededittext"
                 android:orientation="horizontal">
 
-                <Spinner
-                    android:id="@+id/spinner7"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
                     android:layout_weight="1"
-                    android:entries="@android:array/emailAddressTypes" />
+                    android:backgroundTint="@color/main_theme"
+                    android:text="Top Rating" />
 
-                <Spinner
-                    android:id="@+id/spinner6"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
                     android:layout_weight="1"
-                    android:entries="@android:array/imProtocols" />
+                    android:backgroundTint="@color/main_theme"
+                    android:text="Top Hired" />
 
-                <Spinner
-                    android:id="@+id/spinner5"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
                     android:layout_weight="1"
-                    android:entries="@android:array/phoneTypes" />
+                    android:backgroundTint="@color/main_theme"
+                    android:text="Price" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_baseline_filter_alt_24" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -356,4 +472,5 @@
 
         </LinearLayout>
     </ScrollView>
+
 </LinearLayout>

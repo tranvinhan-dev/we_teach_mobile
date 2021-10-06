@@ -99,7 +99,7 @@
                         android:layout_weight="1"
                         android:padding="1dp"
                         android:src="@drawable/ic_baseline_notifications_24"
-                        android:tint="@color/main_theme" />
+                        app:tint="@color/main_theme" />
 
                     <TextView
                         android:id="@+id/textView50"
@@ -135,17 +135,19 @@
             android:layout_width="60dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_baseline_volume_up_24" />
+            app:srcCompat="@drawable/ic_baseline_volume_up_24"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="60dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_baseline_videocam_24" />
+            app:srcCompat="@drawable/ic_baseline_videocam_24"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnStart"
             android:layout_width="218dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"

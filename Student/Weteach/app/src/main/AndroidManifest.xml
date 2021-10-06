@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
+            android:name=".FullScreenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="true" />
+        <activity
             android:name=".MeetTeacherActivity"
             android:exported="true" />
         <activity
