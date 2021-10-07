@@ -4,46 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/material_on_primary_disabled"
     tools:context=".QuizFragment">
 
     <LinearLayout
+        android:id="@+id/main_ln"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="@color/main_theme"
         android:backgroundTint="@color/main_theme"
         android:orientation="vertical">
 
-    <LinearLayout
-        android:id="@+id/main_ln"
-        android:layout_width="wrap_content"
-        android:layout_height="35dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="15dp"
-        android:orientation="horizontal">
+        <LinearLayout
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="36dp"
-            android:layout_height="38dp"
-            app:srcCompat="@drawable/avatar_380_456332" />
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="299dp"
-            android:layout_height="match_parent"
-            android:layout_margin="5dp"
-            android:fontFamily="@font/nunito"
-            android:text="Hello, Nhan Tran"
-            android:textColor="@color/edit_text"
-            android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="36dp"
+                android:layout_height="38dp"
+                app:srcCompat="@drawable/avatar_380_456332" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="34dp"
-            android:layout_height="39dp"
-            app:srcCompat="@drawable/ic_baseline_notifications_none_24" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="299dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/nunito"
+                android:text="Hello, Nhan Tran"
+                android:textColor="@color/edit_text"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="34dp"
+                android:layout_height="39dp"
+                app:srcCompat="@drawable/ic_baseline_notifications_none_24" />
+        </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
@@ -94,7 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/roundededittext"
-            android:backgroundTint="#70A5A4A8"
+            android:backgroundTint="#66AAA7A7"
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
