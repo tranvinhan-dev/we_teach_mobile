@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".HomeFragment">
+    tools:context=".FilterActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
         android:background="@color/main_theme"
         android:backgroundTint="@color/main_theme"
         android:orientation="vertical">
@@ -45,7 +45,6 @@
         </LinearLayout>
 
 
-
     </LinearLayout>
 
     <ScrollView
@@ -64,6 +63,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -79,7 +79,7 @@
                     android:padding="10dp">
 
                     <ImageView
-                        android:id="@+id/ivSearch"
+                        android:id="@+id/ivSearch2"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -107,6 +107,134 @@
 
                 </LinearLayout>
 
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView154"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Search by : " />
+
+                    <Spinner
+                        android:id="@+id/spinner45"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_weight="1"
+                        android:entries="@array/search_by"
+                        android:spinnerMode="dialog" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView153"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Price($):" />
+
+                    <com.google.android.material.slider.RangeSlider
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:valueFrom="0.0"
+                        android:valueTo="100.0"
+                        app:labelBehavior="floating"
+                        app:thumbColor="@color/main_theme"
+                        app:trackColorActive="@color/main_theme"
+                        app:trackColorInactive="#C1CFC9"
+                        app:values="@array/initial_slider_values"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Availability:" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Monday" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Tuesday" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Wednesday" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Thursday" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Friday" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Saturday" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Sunday" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -430,6 +558,7 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
 
                     android:layout_width="match_parent"
@@ -528,4 +657,5 @@
 
         </LinearLayout>
     </ScrollView>
+
 </LinearLayout>

@@ -86,6 +86,15 @@ public class HomeFragment extends Fragment {
                 startActivity(_intent);
             }
         });
+        ImageView ivFilter = rootView.findViewById(R.id.ivFilter);
+        ivFilter.setClickable(true);
+        ivFilter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent _intent = new Intent(getActivity(), FilterActivity.class);
+                startActivity(_intent);
+            }
+        });
         return rootView;
 
     }

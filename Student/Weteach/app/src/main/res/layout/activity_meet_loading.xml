@@ -7,6 +7,31 @@
     android:background="@color/white"
     tools:context=".MeetLoadingActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:src="@drawable/icons8_audio_wave_60px"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29000002" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
     <androidx.cardview.widget.CardView
 
         android:id="@+id/cardView2"
@@ -44,17 +69,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01999998">
+        app:layout_constraintVertical_bias="0.060000002">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/bg_1_teacher"
+            android:background="@drawable/roundededittext"
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="32dp"
+                android:id="@+id/imageView22"
+                android:layout_width="8dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
@@ -70,45 +95,18 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/textView21"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/nunito"
-                    android:text="Mrs.Huong"
-                    android:textColor="@color/black"
-                    android:textSize="24sp"
-                    android:textStyle="bold" />
+                    android:fontFamily="sans-serif-black"
+                    android:text="Ready to join ? "
+                    android:textSize="34sp" />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textView23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/nunito"
-                    android:text="English Teacher"
-                    android:textColor="@android:color/holo_blue_light" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView12"
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:padding="1dp"
-                        android:src="@drawable/ic_baseline_notifications_24"
-                        app:tint="@color/main_theme" />
-
-                    <TextView
-                        android:id="@+id/textView50"
-                        android:layout_width="146dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="You have an exam this mor..."
-                        android:textColor="@color/main_theme" />
-                </LinearLayout>
+                    android:text="Mrs.Huong is in the call." />
 
             </LinearLayout>
 

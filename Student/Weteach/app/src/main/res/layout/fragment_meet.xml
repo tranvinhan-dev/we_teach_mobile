@@ -179,7 +179,7 @@
                                     android:layout_width="146dp"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
-                                    android:text="You have an exam this mor..."
+                                    android:text="You have an exam this..."
                                     android:textColor="@color/main_theme" />
                             </LinearLayout>
 
@@ -234,7 +234,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="Mr.Dai"
+                                android:text="Miss Thao"
                                 android:textColor="@color/black"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
@@ -244,7 +244,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="English Teacher"
+                                android:text="Math Teacher"
                                 android:textColor="@android:color/holo_blue_light" />
 
                             <LinearLayout
@@ -266,7 +266,7 @@
                                     android:layout_width="146dp"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
-                                    android:text="You have an exam this mor..."
+                                    android:text="Mrs.Hong just added a..."
                                     android:textColor="@color/main_theme" />
                             </LinearLayout>
 
@@ -321,7 +321,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="Mrs.Hong"
+                                android:text="Mr.Dai"
                                 android:textColor="@color/black"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
@@ -331,7 +331,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="English Teacher"
+                                android:text="Chesmistry Teacher"
                                 android:textColor="@android:color/holo_blue_light" />
 
                             <LinearLayout

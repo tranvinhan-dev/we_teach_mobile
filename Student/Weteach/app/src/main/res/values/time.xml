@@ -14,4 +14,47 @@
         <item>Nov</item>
         <item>Dec</item>
     </string-array>
+    <string-array name="search_by">
+        <item>Name of Teacher</item>
+        <item>Subject</item>
+        <item>Location</item>
+        <item>Email of Teacher</item>
+        <item>Phone Number of Teacher</item>
+        <item>School</item>
+    </string-array>
+    <string-array name="location">
+        <item>All</item>
+        <item>Ho Chi Minh</item>
+        <item>Ha Noi</item>
+        <item>Binh Duong</item>
+    </string-array>
+    <string-array name="rating">
+        <item>All Rating</item>
+        <item>5+</item>
+        <item>4+</item>
+        <item>3+</item>
+        <item>2+</item>
+        <item>1+</item>
+    </string-array>
+    <string-array name="level">
+        <item>Grade 1</item>
+        <item>Grade 2</item>
+        <item>Grade 3</item>
+        <item>Grade 4</item>
+        <item>Grade 5</item>
+        <item>Grade 6</item>
+        <item>Grade 7</item>
+        <item>Grade 8</item>
+        <item>Grade 9</item>
+        <item>Grade 10</item>
+        <item>Grade 11</item>
+        <item>Grade 12</item>
+        <item>University</item>
+        <item>Other</item>
+
+    </string-array>
+    <array name="initial_slider_values">
+        <item>20.0</item>
+        <item>70.0</item>
+    </array>
 </resources>
