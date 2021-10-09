@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Student/Weteach/app/src/main/res/drawable/ic_baseline_auto_awesome_mosaic_24.xml" value="0.403125" />
+        <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Student/Weteach/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.403125" />
+        <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Student/Weteach/app/src/main/res/drawable/teacher_popup_background.xml" value="0.403125" />
+        <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Student/Weteach/app/src/main/res/layout/activity_student_profile.xml" value="0.21965579710144928" />
+        <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Student/Weteach/app/src/main/res/layout/activity_teacher_profile.xml" value="0.2848731884057971" />
+        <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Student/Weteach/app/src/main/res/layout/teacher_certificate_popup_picture.xml" value="0.2848731884057971" />
+        <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Student/Weteach/app/src/main/res/layout/teacher_ic_popup_picture.xml" value="0.2848731884057971" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Student/Weteach/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.29814814814814816" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Student/Weteach/app/src/main/res/drawable/ic_baseline_chat_bubble_24.xml" value="0.29814814814814816" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Student/Weteach/app/src/main/res/drawable/ic_baseline_dvr_24.xml" value="0.29814814814814816" />

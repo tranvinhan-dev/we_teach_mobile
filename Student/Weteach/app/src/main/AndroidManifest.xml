@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
+            android:name=".TeacherProfileActivity"
+            android:exported="true" />
+        <activity
             android:name=".FullScreenActivity"
             android:exported="true" />
         <activity
