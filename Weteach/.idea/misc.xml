@@ -25,6 +25,7 @@
         <entry key="..\:/FPT/Homework/PRM/Weteach/app/src/main/res/layout/fragment_info.xml" value="0.1" />
         <entry key="..\:/FPT/Homework/PRM/Weteach/app/src/main/res/layout/fragment_notification.xml" value="0.1" />
         <entry key="..\:/FPT/Homework/PRM/Weteach/app/src/main/res/layout/fragment_profile.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Weteach/app/src/main/res/drawable/view_bg.xml" value="0.24583333333333332" />
         <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Weteach/app/src/main/res/layout-v31/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Weteach/app/src/main/res/layout/activity_first_page.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Weteach/app/src/main/res/layout/activity_hire.xml" value="0.25416666666666665" />
@@ -38,6 +39,7 @@
         <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Weteach/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Weteach/app/src/main/res/layout/fragment_quiz.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Weteach/app/src/main/res/layout/fragment_quizlist.xml" value="0.264" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Weteach/app/src/main/res/layout/fragment_quizreview.xml" value="0.264" />
         <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Weteach/app/src/main/res/layout/fragment_reviewquiz.xml" value="0.1933876811594203" />
       </map>
     </option>

@@ -160,15 +160,30 @@
                     android:textSize="20dp" />
 
                 <TextView
-                    android:id="@+id/attempt"
+                    android:id="@+id/attempt1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/deadline"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
                     android:layout_toRightOf="@+id/ava_teacher"
                     android:text="ATTEMPTED !"
                     android:textColor="#388E3C"
-                    android:textSize="25dp" />
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button8"
+                    android:layout_width="99dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/deadline"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@+id/attempt1"
+                    android:background="@drawable/roundededittext"
+                    android:backgroundTint="@color/main_theme"
+                    android:text="REVIEW"
+                    android:textColor="@color/edit_text"
+                    tools:textSize="18dp" />
 
             </RelativeLayout>
 
