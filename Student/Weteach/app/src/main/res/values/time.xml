@@ -53,8 +53,23 @@
         <item>Other</item>
 
     </string-array>
+    <string-array name="Days">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Web</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sar</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="Hours">
+        <item>1h00 - 2h00</item>
+        <item>2h00 - 3h00</item>
+        <item>3h00 - 4h00</item>
+    </string-array>
+
     <array name="initial_slider_values">
-        <item>20.0</item>
-        <item>70.0</item>
+        <item>1.0</item>
+        <item>100.0</item>
     </array>
 </resources>

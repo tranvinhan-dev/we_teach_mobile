@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.weteach">
 
-    package="com.example.weteach"
+    <uses-permission android:name="android.permission.CAMERA" />
 
-    >
-    <uses-permission android:name="android.permission.CAMERA"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,6 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
+        <activity
+            android:name=".HiredDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherDetailActivity"
+            android:exported="true" />
         <activity
             android:name=".RegisterStep2Activity"
             android:exported="true" />
