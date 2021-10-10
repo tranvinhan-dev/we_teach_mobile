@@ -147,7 +147,7 @@
             android:layout_width="94dp"
             android:layout_height="142dp"
             android:background="@drawable/roundededittext"
-            app:srcCompat="@drawable/po_4" />
+            app:srcCompat="@drawable/po_10" />
     </androidx.cardview.widget.CardView>
 
     <ScrollView

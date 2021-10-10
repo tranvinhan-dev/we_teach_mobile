@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/main_theme"
     tools:context=".MeetLoadingActivity">
 
     <ImageView
@@ -12,6 +12,7 @@
         android:layout_width="35dp"
         android:layout_height="40dp"
         android:src="@drawable/icons8_audio_wave_60px"
+        android:tint="@color/main_theme"
         android:translationZ="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,14 +46,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView3"
-        app:layout_constraintVertical_bias="0.13">
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/imageView18"
             android:layout_width="match_parent"
-            android:layout_height="552dp"
+            android:layout_height="489dp"
             android:background="@drawable/roundededittext"
-            app:srcCompat="@drawable/po_4" />
+            app:srcCompat="@drawable/po_10" />
 
     </androidx.cardview.widget.CardView>
 
