@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
+            android:name=".QuizReviewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuizAttemptActivity"
+            android:exported="true" />
+        <activity
             android:name=".HiredDetailActivity"
             android:exported="true" />
         <activity
