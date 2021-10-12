@@ -26,7 +26,7 @@ public class TeacherSignUpFragment extends AppCompatActivity {
         btnSignin2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _intent = new Intent(TeacherSignUpFragment.this,LoginActivity.class);
+                Intent _intent = new Intent(TeacherSignUpFragment.this,RegisterStep2Activity.class);
                 TeacherSignUpFragment.this.startActivity(_intent);
             }
         });

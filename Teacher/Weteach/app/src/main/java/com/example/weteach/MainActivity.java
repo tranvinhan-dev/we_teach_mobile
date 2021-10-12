@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation = findViewById(R.id.bottom_navigation);
         bottomNavigation.add(new MeowBottomNavigation.Model(1,R.drawable.ic_baseline_home_24));
         bottomNavigation.add(new MeowBottomNavigation.Model(2,R.drawable.ic_baseline_calendar_today_24));
-        bottomNavigation.add(new MeowBottomNavigation.Model(3,R.drawable.ic_baseline_dvr_24));
-        bottomNavigation.add(new MeowBottomNavigation.Model(4,R.drawable.ic_baseline_chat_bubble_24));
+        bottomNavigation.add(new MeowBottomNavigation.Model(3,R.drawable.ic_baseline_person_24));
+        bottomNavigation.add(new MeowBottomNavigation.Model(4,R.drawable.ic_baseline_dvr_24));
 
 
         bottomNavigation.setOnShowListener(new MeowBottomNavigation.ShowListener() {
@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
 
                         break;
                     case 3:
-                        fragment = new QuizFragment();
+                        fragment = new MeetFragment();
                         break;
                     case 4:
-                        fragment = new ChatFragment();
+                        fragment = new QuizFragment();
                         break;
 
                 }
