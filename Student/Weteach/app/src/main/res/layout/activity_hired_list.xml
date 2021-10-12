@@ -21,13 +21,16 @@
             android:padding="15dp">
 
             <ImageView
-                android:id="@+id/imageView15"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="5dp"
-                app:srcCompat="@drawable/ic_baseline_arrow_back_24"
-                app:tint="@color/edit_text" />
+                android:id="@+id/imageView26"
+                android:layout_width="45dp"
+                android:layout_height="36dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.041"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.022"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
 
             <LinearLayout
                 android:layout_width="290dp"
@@ -360,102 +363,6 @@
                             android:fontFamily="@font/nunito"
                             android:padding="10dp"
                             android:text="Grade 8-12"
-                            android:textSize="10sp" />
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-
-                    android:id="@+id/cvTeacher"
-                    android:layout_width="match_parent"
-                    android:layout_height="132dp"
-                    android:layout_margin="10dp"
-                    android:elevation="10dp"
-                    app:cardBackgroundColor="#E1F1FD"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="133dp"
-                        android:background="@drawable/bg_1_teacher"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/imageView7"
-                            android:layout_width="129dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/po_1" />
-
-                        <LinearLayout
-                            android:layout_width="135dp"
-                            android:layout_height="match_parent"
-                            android:layout_margin="20dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:id="@+id/textView8"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/nunito"
-                                android:text="Mrs.Huong"
-                                android:textColor="@color/black"
-                                android:textSize="24sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/textView9"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/nunito"
-                                android:text="English Teacher"
-                                android:textColor="@android:color/holo_blue_light" />
-
-                            <TextView
-                                android:id="@+id/textView11"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/nunito"
-                                android:text="$150/session"
-                                android:textStyle="bold" />
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="horizontal">
-
-                                <ImageView
-                                    android:id="@+id/imageView112a"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="1"
-                                    android:src="@drawable/ic_baseline_star_24"
-                                    app:tint="@color/main_theme" />
-
-                                <TextView
-                                    android:id="@+id/textView491a"
-                                    android:layout_width="112dp"
-                                    android:layout_height="wrap_content"
-                                    android:text="4.7"
-                                    android:textColor="@color/main_theme" />
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                        <TextView
-                            android:id="@+id/textView124"
-                            android:layout_width="60dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="30dp"
-                            android:layout_weight="1"
-                            android:fontFamily="@font/nunito"
-                            android:padding="10dp"
-                            android:text="Grade 1-10"
                             android:textSize="10sp" />
 
 

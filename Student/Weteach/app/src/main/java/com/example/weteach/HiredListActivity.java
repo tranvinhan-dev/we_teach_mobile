@@ -1,14 +1,14 @@
-    package com.example.weteach;
+package com.example.weteach;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class HiredDetailActivity extends AppCompatActivity {
+public class HiredListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hired_detail);
+        setContentView(R.layout.activity_hired_list);
     }
 }
