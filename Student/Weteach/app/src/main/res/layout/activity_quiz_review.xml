@@ -312,7 +312,18 @@ D.up/on"/>
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-
+                                <EditText
+                                    android:id="@+id/editTextTextMultiLine5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:gravity="start|top"
+                                    android:inputType="textMultiLine"
+                                    android:text="Question 3: \nLivy's getting ___very well in russian. She takes ___ practicing the language every day.\n
+A.on/to \n
+B.on/on \n
+C.in/on \n
+D.up/on" />
                             </LinearLayout>
                         </ScrollView>
 
@@ -337,18 +348,7 @@ D.up/on"/>
                             android:textSize="20dp"
                             android:textStyle="bold" />
 
-                        <EditText
-                            android:id="@+id/editTextTextMultiLine5"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:ems="10"
-                            android:gravity="start|top"
-                            android:inputType="textMultiLine"
-                            android:text="Question 3: \nLivy's getting ___very well in russian. She takes ___ practicing the language every day.\n
-A.on/to \n
-B.on/on \n
-C.in/on \n
-D.up/on" />
+
                     </LinearLayout>
 
 
