@@ -32,16 +32,20 @@
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="@color/main_theme"
             app:srcCompat="@drawable/ic_baseline_videocam_24"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck"
+            app:tint="@color/edit_text" />
 
         <ImageButton
             android:id="@+id/ibSound"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="@color/main_theme"
             app:srcCompat="@drawable/ic_baseline_volume_up_24"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck"
+            app:tint="@color/edit_text" />
 
         <ImageButton
             android:id="@+id/ibOff"
@@ -62,7 +66,7 @@
         android:layout_height="744dp"
         android:layout_margin="10dp"
         android:elevation="10dp"
-        app:cardBackgroundColor="#E1F1FD"
+        app:cardBackgroundColor="@color/main_theme"
         app:cardCornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,7 +105,7 @@
             android:layout_width="94dp"
             android:layout_height="142dp"
             android:background="@drawable/roundededittext"
-            app:srcCompat="@drawable/po_4" />
+            app:srcCompat="@drawable/po_10" />
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

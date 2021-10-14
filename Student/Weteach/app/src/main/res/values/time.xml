@@ -67,7 +67,6 @@
         <item>2h00 - 3h00</item>
         <item>3h00 - 4h00</item>
     </string-array>
-
     <array name="initial_slider_values">
         <item>1.0</item>
         <item>100.0</item>

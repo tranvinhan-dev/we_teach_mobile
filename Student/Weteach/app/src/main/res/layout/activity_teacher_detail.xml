@@ -128,6 +128,7 @@
                     android:layout_height="wrap_content"
                     android:isIndicator="true"
                     android:numStars="5"
+                    android:progressTint="@color/star"
                     android:rating="4.6"
                     android:stepSize="0.1"
                     android:textAlignment="center"
@@ -153,7 +154,324 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="279dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nunito_bold"
+                        android:text="Availability"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="378dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round_button"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="48dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <TextView
+                            android:id="@+id/textView51"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sun"
+                            android:textAlignment="center"
+                            android:textColor="@color/edit_text" />
+
+                        <TextView
+                            android:id="@+id/textView61"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="42dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <TextView
+                            android:id="@+id/textView52"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mon"
+                            android:textAlignment="center"
+                            android:textColor="@color/edit_text" />
+
+                        <TextView
+                            android:id="@+id/textView62"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="49dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <TextView
+                            android:id="@+id/textView53"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tue"
+                            android:textAlignment="center"
+                            android:textColor="@color/edit_text" />
+
+                        <TextView
+                            android:id="@+id/textView63"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="52dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <TextView
+                            android:id="@+id/textView54"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Wed"
+                            android:textAlignment="center"
+                            android:textColor="@color/edit_text" />
+
+                        <TextView
+                            android:id="@+id/textView64"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="48dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundededittext"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <TextView
+                            android:id="@+id/textView55"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Thu"
+                            android:textAlignment="center"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/textView65"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@android:color/holo_blue_bright"
+                            android:text="5"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="52dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <TextView
+                            android:id="@+id/textView56"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fri"
+                            android:textAlignment="center"
+                            android:textColor="@color/edit_text" />
+
+                        <TextView
+                            android:id="@+id/textView66"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="6"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="51dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sat"
+                            android:textAlignment="center"
+                            android:textColor="@color/edit_text" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="7"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView106"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundededittext"
+                        android:padding="5dp"
+                        android:text="✖ 8h00 - 9h00"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView105"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_button"
+                        android:backgroundTint="#6FF8C1"
+                        android:padding="5dp"
+                        android:text="✔ 9h15 - 10h15"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView104"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_button"
+                        android:backgroundTint="#6FF8C1"
+                        android:padding="5dp"
+                        android:text="✔ 10h30 - 11h30"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView106"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_button"
+                        android:backgroundTint="#6FF8C1"
+                        android:padding="5dp"
+                        android:text="✔ 13h00 - 14h00"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView105"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundededittext"
+                        android:padding="5dp"
+                        android:text="✖ 14h15 - 15h15"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView104"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundededittext"
+                        android:padding="5dp"
+                        android:text="✖ 15h30 - 16h30"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="279dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nunito_bold"
+                        android:text="Information"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -636,302 +954,6 @@
                         android:textSize="20sp" />
 
                 </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/textView32"
-                        android:layout_width="279dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/nunito_bold"
-                        android:text="Availability"
-                        android:textColor="@color/black"
-                        android:textSize="24sp" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="378dp"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/round_button"
-                    android:orientation="horizontal"
-                    android:paddingLeft="20dp"
-                    android:paddingTop="10dp"
-                    android:paddingRight="20dp"
-                    android:paddingBottom="10dp">
-
-                    <LinearLayout
-                        android:layout_width="48dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:textAlignment="center">
-
-                        <TextView
-                            android:id="@+id/textView51"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Sun"
-                            android:textAlignment="center"
-                            android:textColor="@color/edit_text" />
-
-                        <TextView
-                            android:id="@+id/textView61"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="1"
-                            android:textAlignment="center"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="42dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:textAlignment="center">
-
-                        <TextView
-                            android:id="@+id/textView52"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Mon"
-                            android:textAlignment="center"
-                            android:textColor="@color/edit_text" />
-
-                        <TextView
-                            android:id="@+id/textView62"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="2"
-                            android:textAlignment="center"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="49dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:textAlignment="center">
-
-                        <TextView
-                            android:id="@+id/textView53"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Tue"
-                            android:textAlignment="center"
-                            android:textColor="@color/edit_text" />
-
-                        <TextView
-                            android:id="@+id/textView63"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="3"
-                            android:textAlignment="center"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="52dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:textAlignment="center">
-
-                        <TextView
-                            android:id="@+id/textView54"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Wed"
-                            android:textAlignment="center"
-                            android:textColor="@color/edit_text" />
-
-                        <TextView
-                            android:id="@+id/textView64"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="4"
-                            android:textAlignment="center"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="48dp"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/roundededittext"
-                        android:orientation="vertical"
-                        android:textAlignment="center">
-
-                        <TextView
-                            android:id="@+id/textView55"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Thu"
-                            android:textAlignment="center"
-                            android:textColor="@color/black" />
-
-                        <TextView
-                            android:id="@+id/textView65"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:backgroundTint="@android:color/holo_blue_bright"
-                            android:text="5"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="52dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:textAlignment="center">
-
-                        <TextView
-                            android:id="@+id/textView56"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Fri"
-                            android:textAlignment="center"
-                            android:textColor="@color/edit_text" />
-
-                        <TextView
-                            android:id="@+id/textView66"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="6"
-                            android:textAlignment="center"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="51dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:textAlignment="center">
-
-                        <TextView
-                            android:id="@+id/textView5"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Sat"
-                            android:textAlignment="center"
-                            android:textColor="@color/edit_text" />
-
-                        <TextView
-                            android:id="@+id/textView6"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="7"
-                            android:textAlignment="center"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/textView106"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/roundededittext"
-                        android:padding="5dp"
-                        android:text="✖ 8h00 - 9h00"
-                        android:textAlignment="center" />
-
-                    <TextView
-                        android:id="@+id/textView105"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/round_button"
-                        android:backgroundTint="#6FF8C1"
-                        android:padding="5dp"
-                        android:text="✔ 9h15 - 10h15"
-                        android:textAlignment="center" />
-
-                    <TextView
-                        android:id="@+id/textView104"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/round_button"
-                        android:backgroundTint="#6FF8C1"
-                        android:padding="5dp"
-                        android:text="✔ 10h30 - 11h30"
-                        android:textAlignment="center" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/textView106"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/round_button"
-                        android:backgroundTint="#6FF8C1"
-                        android:padding="5dp"
-                        android:text="✔ 13h00 - 14h00"
-                        android:textAlignment="center" />
-
-                    <TextView
-                        android:id="@+id/textView105"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/roundededittext"
-                        android:padding="5dp"
-                        android:text="✖ 14h15 - 15h15"
-                        android:textAlignment="center" />
-
-                    <TextView
-                        android:id="@+id/textView104"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/roundededittext"
-                        android:padding="5dp"
-                        android:text="✖ 15h30 - 16h30"
-                        android:textAlignment="center" />
-                </LinearLayout>
-
             </LinearLayout>
 
         </LinearLayout>

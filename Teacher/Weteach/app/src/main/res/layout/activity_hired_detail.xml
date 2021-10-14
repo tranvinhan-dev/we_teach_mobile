@@ -374,7 +374,7 @@
                             android:layout_margin="10dp"
                             android:layout_weight="1"
                             android:fontFamily="@font/nunito_bold"
-                            android:text="Selected Session"
+                            android:text="Selected Slot"
                             android:textColor="@color/black"
                             android:textSize="24sp" />
 

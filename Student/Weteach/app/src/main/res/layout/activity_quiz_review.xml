@@ -145,7 +145,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="60dp"
                                     android:fontFamily="@font/capriola"
-                                    android:text="Question 1: Choose the right answer:"
+                                    android:text="Select the central activity of Star lifecycle model in HCI  a. Implementation  b. Building conceptual model  c. Evaluation  d. Prototyping"
                                     android:textSize="18dp" />
 
 

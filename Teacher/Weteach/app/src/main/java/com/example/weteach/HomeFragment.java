@@ -59,15 +59,7 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
-        ImageView tvSearch = rootView.findViewById(R.id.ivSearch);
-        tvSearch.setClickable(true);
-        tvSearch.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent _intent = new Intent(getActivity(), HireActivity.class);
-                startActivity(_intent);
-            }
-        });
+
         ImageView ivNotification = rootView.findViewById(R.id.ivNotification2);
         ivNotification.setClickable(true);
         ivNotification.setOnClickListener(new View.OnClickListener() {
@@ -86,15 +78,7 @@ public class HomeFragment extends Fragment {
                 startActivity(_intent);
             }
         });
-        ImageView ivFilter = rootView.findViewById(R.id.ivFilter);
-        ivFilter.setClickable(true);
-        ivFilter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent _intent = new Intent(getActivity(), FilterActivity.class);
-                startActivity(_intent);
-            }
-        });
+
         return rootView;
 
     }

@@ -75,6 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="657dp"
         android:layout_below="@+id/ln1"
+        android:layout_marginTop="0dp"
         android:background="@drawable/roundededittext"
         android:backgroundTint="#72534D4D">
 
@@ -82,6 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:layout_marginBottom="50dp"
             android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -341,8 +343,7 @@
                     app:layout_constraintHorizontal_bias="0.055"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.183"
-                    />
+                    app:layout_constraintVertical_bias="0.183" />
 
                 <TextView
 
@@ -446,8 +447,7 @@
                     app:layout_constraintHorizontal_bias="0.056"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.262"
-                     />
+                    app:layout_constraintVertical_bias="0.262" />
 
                 <TextView
 

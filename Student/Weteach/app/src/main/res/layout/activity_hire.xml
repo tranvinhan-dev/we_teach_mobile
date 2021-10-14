@@ -329,14 +329,14 @@
                                             android:layout_height="match_parent"
                                             android:layout_weight="1"
                                             android:src="@drawable/ic_baseline_star_24"
-                                            app:tint="@color/main_theme" />
+                                            app:tint="@color/star" />
 
                                         <TextView
                                             android:id="@+id/textView491a"
                                             android:layout_width="112dp"
                                             android:layout_height="wrap_content"
                                             android:text="4.7"
-                                            android:textColor="@color/main_theme" />
+                                            android:textColor="@color/star" />
                                     </LinearLayout>
 
                                 </LinearLayout>
@@ -424,14 +424,14 @@
                                             android:layout_height="match_parent"
                                             android:layout_weight="1"
                                             android:src="@drawable/ic_baseline_star_24"
-                                            app:tint="@color/main_theme" />
+                                            app:tint="@color/star" />
 
                                         <TextView
                                             android:id="@+id/textView491b"
                                             android:layout_width="112dp"
                                             android:layout_height="wrap_content"
                                             android:text="4.9"
-                                            android:textColor="@color/main_theme" />
+                                            android:textColor="@color/star" />
                                     </LinearLayout>
 
                                 </LinearLayout>
@@ -519,14 +519,14 @@
                                             android:layout_height="match_parent"
                                             android:layout_weight="1"
                                             android:src="@drawable/ic_baseline_star_24"
-                                            app:tint="@color/main_theme" />
+                                            app:tint="@color/star" />
 
                                         <TextView
                                             android:id="@+id/textView491"
                                             android:layout_width="112dp"
                                             android:layout_height="wrap_content"
                                             android:text="5.0"
-                                            android:textColor="@color/main_theme" />
+                                            android:textColor="@color/star" />
                                     </LinearLayout>
 
                                 </LinearLayout>
