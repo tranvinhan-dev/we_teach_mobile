@@ -140,13 +140,19 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <TextView
-                                    android:id="@+id/textView501"
+
+                                <EditText
+                                    android:id="@+id/editTextTextMultiLine4"
                                     android:layout_width="match_parent"
-                                    android:layout_height="60dp"
-                                    android:fontFamily="@font/capriola"
-                                    android:text="Question 1: Choose the right answer:"
-                                    android:textSize="18dp" />
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:text="Question 1: \nShe had to hang ___ because someone else wanted to use the phone. \n
+A.up \n
+B.on \n
+C.in \n
+D.off"
+                                    android:gravity="start|top"
+                                    android:inputType="textMultiLine" />
 
 
                             </LinearLayout>
@@ -219,13 +225,20 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <TextView
-                                    android:id="@+id/textView5012"
+
+
+                                <EditText
+                                    android:id="@+id/editTextTextMultiLine3"
                                     android:layout_width="match_parent"
-                                    android:layout_height="60dp"
-                                    android:fontFamily="@font/capriola"
-                                    android:text="Question 2 Choose the right answer:"
-                                    android:textSize="18dp" />
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:gravity="start|top"
+                                    android:inputType="textMultiLine"
+                                    android:text="Question 2: \nI must go ___ a diet. I put ___ a lot of weight while i was on vacation.\n
+A.on/in \n
+B.on/on \n
+C.in/on \n
+D.up/on"/>
 
 
                             </LinearLayout>
@@ -299,14 +312,6 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <TextView
-                                    android:id="@+id/textView50212"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="60dp"
-                                    android:fontFamily="@font/capriola"
-                                    android:text="Question 3: Choose the right answer:"
-                                    android:textSize="18dp" />
-
 
                             </LinearLayout>
                         </ScrollView>
@@ -331,6 +336,19 @@
                             android:textColor="#F44336"
                             android:textSize="20dp"
                             android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/editTextTextMultiLine5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="start|top"
+                            android:inputType="textMultiLine"
+                            android:text="Question 3: \nLivy's getting ___very well in russian. She takes ___ practicing the language every day.\n
+A.on/to \n
+B.on/on \n
+C.in/on \n
+D.up/on" />
                     </LinearLayout>
 
 
@@ -379,13 +397,20 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <TextView
-                                    android:id="@+id/textView50"
+
+
+                                <EditText
+                                    android:id="@+id/editTextTextMultiLine6"
                                     android:layout_width="match_parent"
-                                    android:layout_height="60dp"
-                                    android:fontFamily="@font/capriola"
-                                    android:text="Question 4: Choose the right answer:"
-                                    android:textSize="18dp" />
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:gravity="start|top"
+                                    android:inputType="textMultiLine"
+                                    android:text="Question 4: \nThe airhostess asked the passengers to do ___ the seat-belt before the plane took ___. \n
+A.on/off \n
+B.on/on \n
+C.off/on \n
+D.up/off"/>
 
 
                             </LinearLayout>
