@@ -17,7 +17,7 @@ public class TeacherDetailActivity extends AppCompatActivity {
         btnHire.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _inten = new Intent(TeacherDetailActivity.this, HiredDetailActivity.class);
+                Intent _inten = new Intent(TeacherDetailActivity.this, HireDetailActivity.class);
                 startActivity(_inten);
             }
         });
