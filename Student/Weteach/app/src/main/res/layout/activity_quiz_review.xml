@@ -102,7 +102,7 @@
             <androidx.cardview.widget.CardView
 
                 android:layout_width="match_parent"
-                android:layout_height="132dp"
+                android:layout_height="300dp"
                 android:layout_margin="10dp"
                 android:elevation="10dp"
                 app:cardBackgroundColor="#E1F1FD"
@@ -110,13 +110,13 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="133dp"
+                    android:layout_height="300dp"
                     android:background="@drawable/roundededittext"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/imageView72"
-                        android:layout_width="44dp"
+                        android:layout_width="52dp"
                         android:layout_height="119dp"
                         android:layout_weight="1"
                         android:scaleType="fitCenter"
@@ -125,7 +125,7 @@
 
                     <LinearLayout
                         android:layout_width="219dp"
-                        android:layout_height="113dp"
+                        android:layout_height="259dp"
                         android:layout_margin="10dp"
                         android:layout_weight="1"
                         android:orientation="vertical">
@@ -133,20 +133,26 @@
 
                         <ScrollView
                             android:layout_width="match_parent"
-                            android:layout_height="50dp">
+                            android:layout_height="200dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <TextView
-                                    android:id="@+id/textView501"
+
+                                <EditText
+                                    android:id="@+id/editTextTextMultiLine4"
                                     android:layout_width="match_parent"
-                                    android:layout_height="60dp"
-                                    android:fontFamily="@font/capriola"
-                                    android:text="Select the central activity of Star lifecycle model in HCI  a. Implementation  b. Building conceptual model  c. Evaluation  d. Prototyping"
-                                    android:textSize="18dp" />
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:gravity="start|top"
+                                    android:inputType="textMultiLine"
+                                    android:text="Question 1: \nShe had to hang ___ because someone else wanted to use the phone. \n
+A.up \n
+B.on \n
+C.in \n
+D.off" />
 
 
                             </LinearLayout>
@@ -181,7 +187,7 @@
             <androidx.cardview.widget.CardView
 
                 android:layout_width="match_parent"
-                android:layout_height="132dp"
+                android:layout_height="300dp"
                 android:layout_margin="10dp"
                 android:elevation="10dp"
                 app:cardBackgroundColor="#E1F1FD"
@@ -189,7 +195,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="133dp"
+                    android:layout_height="300dp"
                     android:background="@drawable/roundededittext"
                     android:orientation="horizontal">
 
@@ -204,7 +210,7 @@
 
                     <LinearLayout
                         android:layout_width="219dp"
-                        android:layout_height="113dp"
+                        android:layout_height="258dp"
                         android:layout_margin="10dp"
                         android:layout_weight="1"
                         android:orientation="vertical">
@@ -212,20 +218,26 @@
 
                         <ScrollView
                             android:layout_width="match_parent"
-                            android:layout_height="50dp">
+                            android:layout_height="196dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <TextView
-                                    android:id="@+id/textView5012"
+
+                                <EditText
+                                    android:id="@+id/editTextTextMultiLine3"
                                     android:layout_width="match_parent"
-                                    android:layout_height="60dp"
-                                    android:fontFamily="@font/capriola"
-                                    android:text="Question 2 Choose the right answer:"
-                                    android:textSize="18dp" />
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:gravity="start|top"
+                                    android:inputType="textMultiLine"
+                                    android:text="Question 2: \nI must go ___ a diet. I put ___ a lot of weight while i was on vacation.\n
+A.on/in \n
+B.on/on \n
+C.in/on \n
+D.up/on" />
 
 
                             </LinearLayout>
@@ -261,7 +273,7 @@
             <androidx.cardview.widget.CardView
 
                 android:layout_width="match_parent"
-                android:layout_height="132dp"
+                android:layout_height="300dp"
                 android:layout_margin="10dp"
                 android:elevation="10dp"
                 app:cardBackgroundColor="#E1F1FD"
@@ -269,7 +281,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="133dp"
+                    android:layout_height="300dp"
                     android:background="@drawable/roundededittext"
                     android:orientation="horizontal">
 
@@ -284,7 +296,7 @@
 
                     <LinearLayout
                         android:layout_width="219dp"
-                        android:layout_height="113dp"
+                        android:layout_height="235dp"
                         android:layout_margin="10dp"
                         android:layout_weight="1"
                         android:orientation="vertical">
@@ -292,22 +304,25 @@
 
                         <ScrollView
                             android:layout_width="match_parent"
-                            android:layout_height="50dp">
+                            android:layout_height="242dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <TextView
-                                    android:id="@+id/textView50212"
+                                <EditText
+                                    android:id="@+id/editTextTextMultiLine5"
                                     android:layout_width="match_parent"
-                                    android:layout_height="60dp"
-                                    android:fontFamily="@font/capriola"
-                                    android:text="Question 3: Choose the right answer:"
-                                    android:textSize="18dp" />
-
-
+                                    android:layout_height="223dp"
+                                    android:ems="10"
+                                    android:gravity="start|top"
+                                    android:inputType="textMultiLine"
+                                    android:text="Question 3: \nLivy's getting ___very well in russian. She takes ___ practicing the language every day.\n
+A.on/to \n
+B.on/on \n
+C.in/on \n
+D.up/on" />
                             </LinearLayout>
                         </ScrollView>
 
@@ -315,7 +330,7 @@
                             android:id="@+id/textView58212232"
 
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="42dp"
                             android:fontFamily="@font/capriola"
                             android:text="Đã chọn: C"
                             android:textSize="20dp" />
@@ -331,6 +346,8 @@
                             android:textColor="#F44336"
                             android:textSize="20dp"
                             android:textStyle="bold" />
+
+
                     </LinearLayout>
 
 
@@ -379,13 +396,19 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <TextView
-                                    android:id="@+id/textView50"
+
+                                <EditText
+                                    android:id="@+id/editTextTextMultiLine6"
                                     android:layout_width="match_parent"
-                                    android:layout_height="60dp"
-                                    android:fontFamily="@font/capriola"
-                                    android:text="Question 4: Choose the right answer:"
-                                    android:textSize="18dp" />
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:gravity="start|top"
+                                    android:inputType="textMultiLine"
+                                    android:text="Question 4: \nThe airhostess asked the passengers to do ___ the seat-belt before the plane took ___. \n
+A.on/off \n
+B.on/on \n
+C.off/on \n
+D.up/off" />
 
 
                             </LinearLayout>

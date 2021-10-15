@@ -80,7 +80,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
-            android:background="@drawable/roundededittext">
+            android:background="@drawable/roundededittext"
+            android:backgroundTint="#66AAA7A7"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:padding="20dp"
+
+            tools:ignore="SpeakableTextPresentCheck">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -89,33 +96,15 @@
 
                 <EditText
                     android:id="@+id/editTextTextMultiLine2"
-                    android:layout_width="368dp"
-                    android:layout_height="260dp"
-                    android:layout_margin="10dp"
-                    android:background="\"
-                    android:backgroundTint="#66AAA7A7"
+                    android:layout_width="match_parent"
+                    android:layout_height="154dp"
                     android:ems="10"
                     android:gravity="start|top"
                     android:inputType="textMultiLine"
-                    android:padding="20dp"
-                    android:text="The term __________ is used to represent a model that captures a set of activities and how they are related.
-
-
-                    a. software process
-
-
-                    b. lifecycle model
-
-
-
-                    c. usability engineering
-
-                    d. software development lifecycle"
-                    android:textSize="16sp"
-                    tools:ignore="SpeakableTextPresentCheck" />
+                    android:text="Question 1: \nShe had to hang ___ because someone else wanted to use the phone."
+                    android:textSize="20sp" />
             </LinearLayout>
         </ScrollView>
-
     </LinearLayout>
 
 
@@ -137,7 +126,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/roundededittext"
             android:backgroundTint="#496DDA"
-            android:text="B"
+            android:text="B. in"
             android:textColor="@color/white"
             android:textSize="17dp"
             android:textStyle="bold"
@@ -156,7 +145,8 @@
             android:layout_toRightOf="@+id/button1"
             android:background="@drawable/round_button"
             android:backgroundTint="#496DDA"
-            android:text="A"
+            android:text="A. up"
+
             android:textColor="@color/white"
             android:textSize="17dp"
             android:textStyle="bold"
@@ -173,7 +163,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/roundededittext"
             android:backgroundTint="#496DDA"
-            android:text="D"
+            android:text="D. off"
             android:textColor="@color/white"
             android:textSize="17dp"
             android:textStyle="bold"
@@ -193,7 +183,7 @@
             android:layout_toRightOf="@+id/button3"
             android:background="@drawable/round_button"
             android:backgroundTint="#496DDA"
-            android:text="C"
+            android:text="C. on"
             android:textColor="@color/white"
             android:textSize="17dp"
             android:textStyle="bold"
@@ -289,7 +279,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginRight="20dp"
-            android:text="12/20"
+            android:text="1/5"
             android:textAlignment="gravity"
             android:textSize="25dp"
             android:textStyle="bold" />
@@ -303,7 +293,7 @@
         android:layout_gravity="center_horizontal"
         android:background="@drawable/round_button"
         android:backgroundTint="@color/main_theme"
-        android:text="14:20"
+        android:text="4:20"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="40dp"

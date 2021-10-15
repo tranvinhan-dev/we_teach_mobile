@@ -12,13 +12,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
+            android:name=".FeedbackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HireSuccessActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HiredDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HiredListActivity"
+            android:exported="true" />
+        <activity
             android:name=".QuizReviewActivity"
             android:exported="true" />
         <activity
             android:name=".QuizAttemptActivity"
             android:exported="true" />
         <activity
-            android:name=".HiredDetailActivity"
+            android:name=".HireDetailActivity"
             android:exported="true" />
         <activity
             android:name=".TeacherDetailActivity"

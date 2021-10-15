@@ -7,17 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class TeacherDetailActivity extends AppCompatActivity {
+public class HireDetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_teacher_detail);
+        setContentView(R.layout.activity_hire_detail);
         Button btnHire = findViewById(R.id.btnHire);
         btnHire.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _inten = new Intent(TeacherDetailActivity.this, HireDetailActivity.class);
+                Intent _inten =new Intent(HireDetailActivity.this, PaymentActivity.class);
                 startActivity(_inten);
             }
         });
