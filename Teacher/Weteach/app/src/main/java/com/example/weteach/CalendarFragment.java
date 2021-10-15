@@ -67,8 +67,8 @@ public class CalendarFragment extends Fragment {
         llTeacher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _intent = new Intent(getActivity(), MeetLoadingActivity.class);
-                startActivity(_intent);
+              //  Intent _intent = new Intent(getActivity(), MeetLoadingActivity.class);
+                //startActivity(_intent);
             }
         });
         return view;
