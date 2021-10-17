@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
+            android:name=".EditProfileActivity"
+            android:exported="true" />
+        <activity
             android:name=".ManageTeachProfileActivity"
             android:exported="true" />
         <activity

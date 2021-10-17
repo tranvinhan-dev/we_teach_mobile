@@ -16,6 +16,7 @@ private Button btnViewCT;
 private Dialog dialogIC;
 private Dialog dialogCT;
 private Button btnTeachingProfile;
+private Button btnEditProfile;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +24,7 @@ private Button btnTeachingProfile;
         btnViewCT = (Button) findViewById(R.id.btnViewCT);
         btnViewIC = (Button) findViewById(R.id.btnViewIC);
         btnTeachingProfile = findViewById(R.id.btnTeachingProfile);
+        btnEditProfile = findViewById(R.id.btnEditProfile);
 
         btnViewIC.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +45,13 @@ private Button btnTeachingProfile;
             public void onClick(View view) {
                 Intent ToTeaProfile  = new Intent(TeacherProfileActivity.this,ManageTeachProfileActivity.class);
                 startActivity(ToTeaProfile);
+            }
+        });
+        btnEditProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ToEditProfile  = new Intent(TeacherProfileActivity.this,EditProfileActivity.class);
+                startActivity(ToEditProfile);
             }
         });
     }
