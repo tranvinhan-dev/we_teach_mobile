@@ -206,7 +206,7 @@
                             android:textSize="20sp" />
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:id="@+id/buttonEdit1"
+                            android:id="@+id/btnEdit1"
                             android:layout_width="125dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="30dp"

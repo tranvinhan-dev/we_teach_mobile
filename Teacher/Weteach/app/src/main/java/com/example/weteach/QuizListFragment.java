@@ -2,21 +2,23 @@ package com.example.weteach;
 
 import android.content.Intent;
 import android.os.Bundle;
-
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link QuizFragment#newInstance} factory method to
+ * Use the {@link QuizListFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class QuizFragment extends Fragment {
+public class QuizListFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -27,7 +29,9 @@ public class QuizFragment extends Fragment {
     private String mParam1;
     private String mParam2;
     private FloatingActionButton fab;
-    public QuizFragment() {
+    private Button btnEdit;
+    private ImageView btnBack;
+    public QuizListFragment() {
         // Required empty public constructor
     }
 
@@ -40,8 +44,8 @@ public class QuizFragment extends Fragment {
      * @return A new instance of fragment InfoFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static QuizFragment newInstance(String param1, String param2) {
-        QuizFragment fragment = new QuizFragment();
+    public static QuizListFragment newInstance(String param1, String param2) {
+        QuizListFragment fragment = new QuizListFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -52,12 +56,32 @@ public class QuizFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        btnBack.findViewById(R.id.btnBack) ;
+        btnBack.setClickable(true);
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent _intent = new Intent(QuizListFragment.this.getActivity(),MainActivity.class);
+                QuizListFragment.this.startActivity(_intent);
+            }
+        });
         fab.findViewById(R.id.fab);
+        fab.setClickable(true);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent _intent = new Intent(QuizFragment.this.getActivity(),CreateQuizActivity.class);
-                QuizFragment.this.startActivity(_intent);
+                Intent _intent = new Intent(QuizListFragment.this.getActivity(),CreateQuizActivity.class);
+                QuizListFragment.this.startActivity(_intent);
+            }
+        });
+        btnEdit.findViewById(R.id.btnEdit1);
+        btnEdit.setClickable(true);
+        btnEdit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent _intIntent = new Intent(QuizListFragment.this.getActivity(),Edit_QuizActivity.class);
+                QuizListFragment.this.startActivity(_intIntent);
+
             }
         });
         if (getArguments() != null) {
