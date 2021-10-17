@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
+            android:name=".Edit_QuizActivity"
+            android:exported="false" />
+        <activity
             android:name=".CreateQuizActivity"
             android:exported="false" />
         <activity
