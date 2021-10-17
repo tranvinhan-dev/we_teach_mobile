@@ -39,9 +39,10 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 3:
                         fragment = new MeetFragment();
+                        fragment = new QuizListFragment();
                         break;
                     case 4:
-                        fragment = new QuizFragment();
+                        fragment = new QuizListFragment();
                         break;
 
                 }
