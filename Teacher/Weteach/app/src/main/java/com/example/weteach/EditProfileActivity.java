@@ -18,6 +18,8 @@ private Button btnSaveChange;
         btnSaveChange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent save = new Intent(EditProfileActivity.this,TeacherProfileActivity.class);
+                startActivity(save);
             }
         });
     }
