@@ -24,7 +24,7 @@
                 android:id="@+id/ivAvatar"
                 android:layout_width="36dp"
                 android:layout_height="38dp"
-                app:srcCompat="@drawable/po_6_teacher" />
+                app:srcCompat="@drawable/po_8_avatar" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -88,7 +88,7 @@
                     android:layout_height="match_parent"
                     android:background="@color/edit_text"
                     android:ems="10"
-                    android:hint="Search Tutor"
+                    android:hint="Search Class"
                     android:inputType="textPersonName"
                     android:paddingLeft="20dp"
                     tools:ignore="TouchTargetSizeCheck" />
@@ -104,26 +104,6 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView32"
-                    android:layout_width="279dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/nunito_bold"
-                    android:text="Your teachers"
-                    android:textColor="@color/black"
-                    android:textSize="24sp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
                 android:layout_height="713dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
@@ -132,8 +112,8 @@
 
                 <androidx.cardview.widget.CardView
 
-                    android:layout_width="match_parent"
-                    android:layout_height="103dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
                     android:layout_margin="10dp"
                     android:elevation="10dp"
                     app:cardBackgroundColor="#E1F1FD"
@@ -146,12 +126,13 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView711"
-                            android:layout_width="52dp"
-                            android:layout_height="match_parent"
+                            android:id="@+id/imageView32"
+                            android:layout_width="49dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
                             android:layout_weight="1"
-                            android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/po_1" />
+                            android:src="@drawable/po_6_teacher"
+                            app:srcCompat="@drawable/po_8_avatar" />
 
                         <LinearLayout
                             android:layout_width="135dp"
@@ -167,7 +148,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="Mrs.Huong"
+                                android:text="Quang Nhat"
                                 android:textColor="@color/black"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
@@ -177,7 +158,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="English Teacher"
+                                android:text="English Grade 6"
                                 android:textColor="@android:color/holo_blue_light" />
 
                             <LinearLayout
@@ -199,7 +180,94 @@
                                     android:layout_width="146dp"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
-                                    android:text="You have an exam this..."
+                                    android:text="Today"
+                                    android:textColor="@color/main_theme" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/ivMeet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_baseline_navigate_next_24" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="111dp"
+                    android:layout_margin="10dp"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="#E1F1FD"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="108dp"
+                        android:background="@drawable/bg_1_teacher"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView32"
+                            android:layout_width="49dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/po_6_teacher" />
+
+                        <LinearLayout
+                            android:layout_width="135dp"
+                            android:layout_height="76dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView811"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/nunito"
+                                android:text="Nhan Tran"
+                                android:textColor="@color/black"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView911"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/nunito"
+                                android:text="English Grade 10"
+                                android:textColor="@android:color/holo_blue_light" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView121"
+                                    android:layout_width="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="1dp"
+                                    android:src="@drawable/ic_baseline_notifications_24"
+                                    app:tint="@color/main_theme" />
+
+                                <TextView
+                                    android:id="@+id/textView501"
+                                    android:layout_width="146dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="Today"
                                     android:textColor="@color/main_theme" />
                             </LinearLayout>
 
@@ -220,7 +288,7 @@
                 <androidx.cardview.widget.CardView
 
                     android:layout_width="match_parent"
-                    android:layout_height="106dp"
+                    android:layout_height="103dp"
                     android:layout_margin="10dp"
                     android:elevation="10dp"
                     app:cardBackgroundColor="#E1F1FD"
@@ -233,12 +301,13 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView71"
-                            android:layout_width="52dp"
-                            android:layout_height="match_parent"
+                            android:id="@+id/imageView32"
+                            android:layout_width="49dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
                             android:layout_weight="1"
-                            android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/po_2" />
+                            android:src="@drawable/po_6_teacher"
+                            app:srcCompat="@drawable/po_7_teacher" />
 
                         <LinearLayout
                             android:layout_width="135dp"
@@ -250,21 +319,21 @@
                             android:orientation="vertical">
 
                             <TextView
-                                android:id="@+id/textView118"
+                                android:id="@+id/textView811"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="Miss Thao"
+                                android:text="Xuan Dat"
                                 android:textColor="@color/black"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
-                                android:id="@+id/textView91"
+                                android:id="@+id/textView911"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="Math Teacher"
+                                android:text="English Grade 12"
                                 android:textColor="@android:color/holo_blue_light" />
 
                             <LinearLayout
@@ -273,7 +342,7 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:id="@+id/imageView1212"
+                                    android:id="@+id/imageView121"
                                     android:layout_width="10dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -282,105 +351,18 @@
                                     app:tint="@color/main_theme" />
 
                                 <TextView
-                                    android:id="@+id/textView5011"
+                                    android:id="@+id/textView501"
                                     android:layout_width="146dp"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
-                                    android:text="Mrs.Hong just added a..."
+                                    android:text="Today"
                                     android:textColor="@color/main_theme" />
                             </LinearLayout>
 
                         </LinearLayout>
 
                         <ImageView
-                            android:id="@+id/imageView1312"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:src="@drawable/ic_baseline_navigate_next_24" />
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:elevation="10dp"
-                    app:cardBackgroundColor="#E1F1FD"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="108dp"
-                        android:background="@drawable/bg_1_teacher"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/imageView7"
-                            android:layout_width="52dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/po_3" />
-
-                        <LinearLayout
-                            android:layout_width="135dp"
-                            android:layout_height="76dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginRight="10dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:id="@+id/textView8"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/nunito"
-                                android:text="Mr.Dai"
-                                android:textColor="@color/black"
-                                android:textSize="24sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/textView9"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/nunito"
-                                android:text="Chesmistry Teacher"
-                                android:textColor="@android:color/holo_blue_light" />
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal">
-
-                                <ImageView
-                                    android:id="@+id/imageView12"
-                                    android:layout_width="10dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:padding="1dp"
-                                    android:src="@drawable/ic_baseline_notifications_24"
-                                    app:tint="@color/main_theme" />
-
-                                <TextView
-                                    android:id="@+id/textView50"
-                                    android:layout_width="146dp"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="1"
-                                    android:text="You have an exam this mor..."
-                                    android:textColor="@color/main_theme" />
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                        <ImageView
-                            android:id="@+id/imageView13"
+                            android:id="@+id/ivMeet"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"

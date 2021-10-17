@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
+            android:name=".UpdateQuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CreateQuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="true" />
+        <activity
             android:name=".ChangeScheduleStudentActivity"
             android:exported="true" />
         <activity

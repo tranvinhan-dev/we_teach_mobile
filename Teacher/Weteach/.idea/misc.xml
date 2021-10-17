@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
- <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Teacher/Weteach/app/src/main/res/drawable/date_icon.xml" value="0.39895833333333336" />
+        <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Teacher/Weteach/app/src/main/res/drawable/date_icon.xml" value="0.39895833333333336" />
+        <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_edit_profile.xml" value="0.25" />
         <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
         <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_manage_teach_profile.xml" value="0.3729166666666667" />
         <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_notification.xml" value="0.38697916666666665" />
@@ -16,7 +17,8 @@
         <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_teacher_profile.xml" value="0.25" />
         <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_teacher_register_teaching.xml" value="0.25" />
         <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/fragment_quiz.xml" value="0.3828125" />
-        <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/teacher_register_popup.xml" value="0.3828125" />        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Student/Weteach/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.29814814814814816" />
+        <entry key="..\:/CN7/HCI-asg/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/teacher_register_popup.xml" value="0.3828125" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Student/Weteach/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.29814814814814816" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Student/Weteach/app/src/main/res/drawable/ic_baseline_chat_bubble_24.xml" value="0.29814814814814816" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Student/Weteach/app/src/main/res/drawable/ic_baseline_dvr_24.xml" value="0.29814814814814816" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Student/Weteach/app/src/main/res/drawable/ic_baseline_filter_2_24.xml" value="0.2953703703703704" />
@@ -65,25 +67,37 @@
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Student/Weteach/app/src/main/res/layout/search_filter.xml" value="0.3079710144927536" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Student/Weteach/app/src/main/res/menu/navigation_drawer.xml" value="0.36666666666666664" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_change_schedule_student.xml" value="0.23324275362318841" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_create_quiz.xml" value="0.3020833333333333" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_edit_profile.xml" value="0.2015625" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_filter.xml" value="0.23324275362318841" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_filter_hire.xml" value="0.23731884057971014" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_first_page.xml" value="0.31567028985507245" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_full_screen.xml" value="0.31567028985507245" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_hire.xml" value="0.2418478260869565" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_hired_detail.xml" value="0.33" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_main.xml" value="0.22509057971014493" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_manage_teach_profile.xml" value="0.3020833333333333" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_meet_loading.xml" value="0.3020833333333333" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_meet_teacher.xml" value="0.22509057971014493" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_notification.xml" value="0.22509057971014493" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_quiz_attempt.xml" value="0.22509057971014493" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_quiz_review.xml" value="0.22509057971014493" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_register_step2.xml" value="0.22509057971014493" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_second_page.xml" value="0.3020833333333333" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_student_profile.xml" value="0.22509057971014493" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_student_sign_up_fragment.xml" value="0.3020833333333333" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_teacher_detail.xml" value="0.2418478260869565" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_teacher_profile.xml" value="0.2418478260869565" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_teacher_register_teaching.xml" value="0.22509057971014493" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_teacher_sign_up_fragment.xml" value="0.3020833333333333" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_update_quiz.xml" value="0.3020833333333333" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_update_teaching_profile.xml" value="0.3020833333333333" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/edit_specific_time_for_student.xml" value="0.20969202898550723" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/edit_specific_time_for_student_popup.xml" value="0.5" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/fragment_calendar.xml" value="0.5" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/fragment_home.xml" value="0.5" />
-        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/fragment_meet.xml" value="0.20969202898550723" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/fragment_meet.xml" value="0.33" />
+        <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/fragment_quiz.xml" value="0.2015625" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/teacher_register_popup.xml" value="0.22509057971014493" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Weteach/app/src/main/res/layout/activity_first_page.xml" value="0.33" />
         <entry key="..\:/Code_Project/tutor_app_mobile/we_teach_mobile/Weteach/app/src/main/res/layout/activity_hire.xml" value="0.33" />
