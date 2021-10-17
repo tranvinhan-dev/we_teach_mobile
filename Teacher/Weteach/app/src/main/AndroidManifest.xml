@@ -10,6 +10,65 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
+
+
+            android:name=".ClassDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewTeacherProfileTeaching"
+            android:exported="true" />
+        <activity
+            android:name=".EditProfileTeachinhActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ManageTeachProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherRegisterTeachingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuizReviewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuizAttemptActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HiredDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterStep2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".FilterHireActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FilterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FullScreenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StudentProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MeetTeacherActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MeetLoadingActivity"
+            android:exported="true" />
+        <activity
             android:name=".Edit_QuizActivity"
             android:exported="false" />
         <activity
