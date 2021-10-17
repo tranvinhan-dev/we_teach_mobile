@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new MeetFragment();
                         break;
                     case 4:
-                        fragment = new QuizFragment();
+                        fragment = new QuizListFragment();
                         break;
 
                 }

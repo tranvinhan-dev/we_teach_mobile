@@ -15,8 +15,7 @@ private Button btnViewSession2;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manage_teach_profile);
-        btnViewSession1 = findViewById(R.id.btnViewSession1);
-        btnViewSession2 = findViewById(R.id.btnViewSession2);
+
         btnAddSession = findViewById(R.id.btnAddTeachingProfile);
 
         btnAddSession.setOnClickListener(new View.OnClickListener() {
@@ -26,19 +25,6 @@ private Button btnViewSession2;
                 startActivity(toTeaching);
             }
         });
-        btnViewSession1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent toTeaching1 = new Intent(ManageTeachProfileActivity.this,TeacherRegisterTeachingActivity.class);
-                startActivity(toTeaching1);
-            }
-        });
-        btnViewSession2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent toTeaching1 = new Intent(ManageTeachProfileActivity.this,TeacherRegisterTeachingActivity.class);
-                startActivity(toTeaching1);
-            }
-        });
+
     }
 }

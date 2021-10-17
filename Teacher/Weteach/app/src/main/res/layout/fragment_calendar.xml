@@ -50,7 +50,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="675dp"
+        android:layout_height="664dp"
         android:background="@drawable/view_bg"
         android:orientation="vertical">
 
@@ -71,7 +71,7 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button8"
+                android:id="@+id/btnChange"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -388,8 +388,8 @@
         </LinearLayout>
 
         <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="445dp"
+            android:layout_width="380dp"
+            android:layout_height="366dp"
             android:layout_margin="10dp"
             android:background="@drawable/roundededittext"
             android:backgroundTint="#F1FAFB">
@@ -575,13 +575,35 @@
 
                 <LinearLayout
                     android:layout_width="319dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="99dp">
 
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="0dp"
+                            android:layout_height="2dp"
+                            android:background="@color/design_default_color_error"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView127"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6:50"
+                            android:textColor="@color/design_default_color_error"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.02"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.31" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <LinearLayout
@@ -647,34 +669,57 @@
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="72dp">
+                        android:layout_height="18dp">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llTeacher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/edit_text"
+                        android:padding="10dp">
 
                         <LinearLayout
-                            android:id="@+id/linearLayout2"
-                            android:layout_width="315dp"
-                            android:layout_height="2dp"
-                            android:background="#FD0303"
-                            android:orientation="vertical"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.495"></LinearLayout>
+                            android:layout_width="match_parent"
+                            android:layout_height="29dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
 
-                        <TextView
-                            android:id="@+id/textView34"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/nunito"
-                            android:text="09:45"
-                            android:textColor="#FA0202"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.007"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.301" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                            <LinearLayout
+                                android:layout_width="193dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:id="@+id/textView36"
+                                    android:layout_width="43dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/nunito"
+                                    android:text="FREE SLOT"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView3777"
+                                    android:layout_width="92dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/nunito"
+                                    android:text="9:15 - 10:15"
+                                    android:textAlignment="textEnd"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="8dp" />
 
                     <LinearLayout
                         android:id="@+id/llTeacher"
@@ -694,8 +739,7 @@
                                 android:layout_width="16dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:src="@drawable/po_7_teacher"
-                                app:srcCompat="@drawable/po_8_avatar" />
+                                android:src="@drawable/po_7_teacher" />
 
                             <LinearLayout
                                 android:layout_width="193dp"
@@ -705,7 +749,7 @@
 
                                 <TextView
                                     android:id="@+id/textView36"
-                                    android:layout_width="43dp"
+                                    android:layout_width="132dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:fontFamily="@font/nunito"
@@ -732,6 +776,156 @@
                                 android:background="@drawable/roundededittext"
                                 android:padding="2dp"
                                 android:src="@drawable/ic_baseline_edit_24" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="74dp">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llTeacher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/edit_text"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="29dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="193dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:id="@+id/textView36"
+                                    android:layout_width="43dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/nunito"
+                                    android:text="FREE SLOT"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView3777"
+                                    android:layout_width="92dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/nunito"
+                                    android:text="13:00 - 14:00"
+                                    android:textAlignment="textEnd"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llTeacher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/edit_text"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="29dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="193dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:id="@+id/textView36"
+                                    android:layout_width="43dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/nunito"
+                                    android:text="FREE SLOT"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView3777"
+                                    android:layout_width="92dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/nunito"
+                                    android:text="14:15 - 15:15"
+                                    android:textAlignment="textEnd"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llTeacher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/edit_text"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="29dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="193dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:padding="5dp">
+
+                                <TextView
+                                    android:id="@+id/textView36"
+                                    android:layout_width="43dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/nunito"
+                                    android:text="FREE SLOT"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView3777"
+                                    android:layout_width="92dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/nunito"
+                                    android:text="15:30 - 16:30"
+                                    android:textAlignment="textEnd"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
 
                         </LinearLayout>
 

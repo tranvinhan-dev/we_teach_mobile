@@ -14,7 +14,7 @@ public class StudentSignUpFragment extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_sign_up_fragment);
-        ImageView btnBack = findViewById(R.id.btnBack);
+        ImageView btnBack = findViewById(R.id.btnBack10);
         btnBack.setClickable(true);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -69,6 +69,9 @@
             android:name=".MeetLoadingActivity"
             android:exported="true" />
         <activity
+            android:name=".Edit_QuizActivity"
+            android:exported="false" />
+        <activity
             android:name=".StudentSignUpFragment"
             android:exported="true" />
         <activity

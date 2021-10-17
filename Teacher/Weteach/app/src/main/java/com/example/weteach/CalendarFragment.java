@@ -1,6 +1,7 @@
 package com.example.weteach;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -84,6 +85,15 @@ public class CalendarFragment extends Fragment {
                 m.setContentView(R.layout.edit_specific_time_for_student_popup);
                 m.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 m.show();
+            }
+        });
+        Button btnChange= view.findViewById(R.id.btnChange);
+        btnChange.setClickable(true);
+        btnChange.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent _intent = new Intent(getActivity(),ChangeScheduleStudentActivity.class);
+                startActivity(_intent);
             }
         });
         return view;
