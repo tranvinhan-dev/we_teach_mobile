@@ -23,7 +23,6 @@ public class TeacherRegisterTeachingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teacher_register_teaching);
         dialog = new Dialog(this);
-
         btnThurday.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

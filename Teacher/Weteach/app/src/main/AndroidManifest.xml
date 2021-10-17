@@ -15,6 +15,9 @@
             android:name=".ChangeScheduleStudentActivity"
             android:exported="true" />
         <activity
+            android:name=".ManageTeachProfileActivity"
+            android:exported="true" />
+        <activity
             android:name=".TeacherRegisterTeachingActivity"
             android:exported="true" />
         <activity

@@ -295,7 +295,133 @@
                                 app:layout_constraintVertical_bias="0.554"
                                 tools:ignore="TouchTargetSizeCheck" />
                         </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Primary School"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 1"
+                                android:textSize="16dp" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 2"
+                                android:textSize="16dp" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 3"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 4"
+                                android:textSize="16dp" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 5"
+                                android:textSize="16dp"
+                                />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Secondary School"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 6"
+                                android:textSize="16dp" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 7"
+                                android:textSize="16dp" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 8"
+                                android:textSize="16dp" />
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 9"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="High School"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 10"
+                                android:textSize="16dp"
+                                android:checked="true"
+                                />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 11"
+                                android:textSize="16dp" />
+
+                            <CheckBox
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade 12"
+                                android:checked="true"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
                     </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="378dp"
                         android:layout_height="match_parent"
@@ -369,8 +495,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="60dp"
-                                android:text="Wednesday"
                                 android:checked="true"
+                                android:text="Wednesday"
                                 android:textColor="@color/white" />
 
                             <androidx.appcompat.widget.AppCompatButton
@@ -414,8 +540,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="60dp"
-                                android:text="Friday"
                                 android:checked="true"
+                                android:text="Friday"
                                 android:textColor="@color/white" />
 
                             <androidx.appcompat.widget.AppCompatButton
@@ -459,8 +585,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="60dp"
-                                android:text="Sunday"
                                 android:checked="true"
+                                android:text="Sunday"
                                 android:textColor="@color/white" />
 
                             <androidx.appcompat.widget.AppCompatButton
@@ -471,6 +597,7 @@
                                 android:textSize="16dp" />
 
                         </LinearLayout>
+
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -487,8 +614,8 @@
                             <EditText
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="5 Weeks"
                                 android:layout_marginLeft="10dp"
+                                android:text="5 Weeks"
                                 android:textColor="@color/black"
                                 android:textSize="20dp"
                                 android:textStyle="bold" />
@@ -496,113 +623,131 @@
                         </LinearLayout>
 
                     </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="10dp"
                         android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="20dp"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:text="Your Session"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Your Session"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Session Register TimeLine"
-                                android:textStyle="bold"
+                                android:textColor="@color/black"
                                 android:textSize="16dp"
-                                android:textColor="@color/black"/>
+                                android:textStyle="bold" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
+                                android:text="From 11/08/2021 To 18/12/2021"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Session Duration"
                                 android:textColor="@color/black"
                                 android:textSize="16dp"
-                                android:text="From 11/08/2021 To 18/12/2021"/>
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:text="5 weeks"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
                         </LinearLayout>
+
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Session Duration"
-                            android:textStyle="bold"
-                            android:textSize="16dp"
-                            android:textColor="@color/black"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:textColor="@color/black"
-                            android:textSize="16dp"
-                            android:text="5 weeks"/>
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Session Level"
-                                android:textStyle="bold"
+                                android:textColor="@color/black"
                                 android:textSize="16dp"
-                                android:textColor="@color/black"/>
+                                android:textStyle="bold" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
+                                android:text="Grade 12"
                                 android:textColor="@color/black"
-                                android:textSize="16dp"
-                                android:text="Grade 12"/>
+                                android:textSize="16dp" />
                         </LinearLayout>
+
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Session Subject"
-                                android:textStyle="bold"
+                                android:textColor="@color/black"
                                 android:textSize="16dp"
-                                android:textColor="@color/black"/>
+                                android:textStyle="bold" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
+                                android:text="Math"
                                 android:textColor="@color/black"
-                                android:textSize="16dp"
-                                android:text="Math"/>
+                                android:textSize="16dp" />
                         </LinearLayout>
+
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Session Total SLot"
-                                android:textStyle="bold"
+                                android:textColor="@color/black"
                                 android:textSize="16dp"
-                                android:textColor="@color/black"/>
+                                android:textStyle="bold" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
+                                android:text="15 slot"
                                 android:textColor="@color/black"
-                                android:textSize="16dp"
-                                android:text="15 slot"/>
+                                android:textSize="16dp" />
                         </LinearLayout>
+
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -627,6 +772,7 @@
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

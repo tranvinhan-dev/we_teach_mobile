@@ -40,7 +40,7 @@ public class RegisterStep2Activity extends AppCompatActivity {
         btnSignin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _intent = new Intent(RegisterStep2Activity.this,LoginActivity.class);
+                Intent _intent = new Intent(RegisterStep2Activity.this,TeacherRegisterTeachingActivity.class);
                 RegisterStep2Activity.this.startActivity(_intent);
             }
         });
