@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
+
             android:name=".EditProfileActivity"
             android:exported="true" />
         <activity
@@ -59,6 +60,12 @@
         <activity
             android:name=".MeetLoadingActivity"
             android:exported="true" />
+        <activity
+            android:name=".Edit_QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateQuizActivity"
+            android:exported="false" />
         <activity
             android:name=".StudentSignUpFragment"
             android:exported="true" />

@@ -88,6 +88,28 @@
         <entry key="..\:/FPT/Homework/PRM/Weteach/app/src/main/res/layout/fragment_info.xml" value="0.1" />
         <entry key="..\:/FPT/Homework/PRM/Weteach/app/src/main/res/layout/fragment_notification.xml" value="0.1" />
         <entry key="..\:/FPT/Homework/PRM/Weteach/app/src/main/res/layout/fragment_profile.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/drawable/ic_baseline_fullscreen_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/drawable/ic_baseline_insert_emoticon_24.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/drawable/ic_baseline_videocam_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/drawable/round_video_call.xml" value="0.2703125" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout-v31/activity_full_screen.xml" value="0.2" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout-v31/activity_meet_loading.xml" value="0.264" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout-v31/activity_meet_teacher.xml" value="0.264" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout-v31/fragment_meet.xml" value="0.264" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_create_quiz.xml" value="0.264" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_edit_quiz.xml" value="0.264" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_hire.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_second_page.xml" value="0.21105072463768115" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_student_sign_up_fragment.xml" value="0.21105072463768115" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/activity_teacher_sign_up_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/fragment_calendar.xml" value="0.21105072463768115" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/fragment_quiz.xml" value="0.264" />
+        <entry key="..\:/Users/minh2/Documents/GitHub/we_teach_mobile/Teacher/Weteach/app/src/main/res/layout/fragment_quiz_list.xml" value="0.2" />
       </map>
     </option>
   </component>
