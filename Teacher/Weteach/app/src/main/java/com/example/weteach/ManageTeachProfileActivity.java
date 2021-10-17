@@ -11,6 +11,8 @@ public class ManageTeachProfileActivity extends AppCompatActivity {
 private Button btnViewSession1;
 private Button btnAddSession;
 private Button btnViewSession2;
+private Button btnEdit1;
+private Button btnEdit2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,8 +38,22 @@ private Button btnViewSession2;
         btnViewSession2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent toTeaching1 = new Intent(ManageTeachProfileActivity.this,TeacherRegisterTeachingActivity.class);
-                startActivity(toTeaching1);
+                Intent toTeaching4 = new Intent(ManageTeachProfileActivity.this,TeacherRegisterTeachingActivity.class);
+                startActivity(toTeaching4);
+            }
+        });
+        btnEdit1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toTeaching2 = new Intent(ManageTeachProfileActivity.this,EditProfileTeachinhActivity.class);
+                startActivity(toTeaching2);
+            }
+        });
+        btnEdit2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toTeaching3 = new Intent(ManageTeachProfileActivity.this,EditProfileTeachinhActivity.class);
+                startActivity(toTeaching3);
             }
         });
     }
