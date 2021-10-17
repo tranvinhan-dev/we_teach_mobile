@@ -472,7 +472,7 @@
                             android:layout_weight="1"
                             android:background="@drawable/roundededittext"
                             android:backgroundTint="@color/edit_text"
-                            android:text="+ Add more session"
+                            android:text="+ Add more slots"
                             android:textColor="@color/black" />
 
                         <LinearLayout

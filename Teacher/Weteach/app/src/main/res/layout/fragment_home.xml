@@ -144,7 +144,7 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:fontFamily="@font/nunito"
-                            android:text="Tutoring, Math"
+                            android:text="English, Grade 12"
                             android:textColor="@color/edit_text"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -155,7 +155,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:fontFamily="@font/nunito"
-                            android:text="Mrs.Huong"
+                            android:text="Quang Nhat"
                             android:textColor="@color/edit_text" />
                     </LinearLayout>
 
@@ -165,7 +165,7 @@
                         android:layout_height="52dp"
                         android:layout_weight="1"
                         android:src="@drawable/po_7_teacher"
-                        app:srcCompat="@drawable/po_7_teacher" />
+                        app:srcCompat="@drawable/po_6_teacher" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

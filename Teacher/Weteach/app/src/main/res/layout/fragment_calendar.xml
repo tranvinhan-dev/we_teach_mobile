@@ -76,7 +76,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/roundededittext"
-                android:text="Change Schedule" />
+                android:backgroundTint="@color/main_theme"
+                android:text="Change Schedule"
+                android:textColor="@color/edit_text" />
 
         </LinearLayout>
 
@@ -631,7 +633,7 @@
                             </LinearLayout>
 
                             <ImageButton
-                                android:id="@+id/imageButton"
+                                android:id="@+id/ibEdit"
                                 android:layout_width="7dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
