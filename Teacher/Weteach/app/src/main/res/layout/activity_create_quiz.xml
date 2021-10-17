@@ -621,6 +621,102 @@ D.to have been abducting" />
 
                     </androidx.cardview.widget.CardView>
 
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:layout_margin="10dp"
+                        android:elevation="10dp"
+                        app:cardBackgroundColor="#E1F1FD"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/roundededittext"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="210dp"
+                                android:layout_margin="10dp"
+                                android:layout_weight="1">
+
+
+                                <ScrollView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="200dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="200dp"
+                                        android:orientation="vertical">
+
+
+                                        <EditText
+                                            android:layout_width="match_parent"
+                                            android:layout_height="187dp"
+                                            android:ems="10"
+                                            android:gravity="start|top"
+                                            android:inputType="textMultiLine"
+                                            android:text=" "  />
+
+
+                                    </LinearLayout>
+                                </ScrollView>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <CheckBox
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_weight="1"
+                                    android:checked="false"
+                                    android:text="A"
+                                    android:fontFamily="@font/capriola"
+                                    android:textSize="30sp" />
+
+                                <CheckBox
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:checked="false"
+                                    android:text="B"
+                                    android:fontFamily="@font/capriola"
+                                    android:textSize="30sp" />
+
+                                <CheckBox
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:checked="false"
+                                    android:text="C"
+                                    android:fontFamily="@font/capriola"
+                                    android:textSize="30sp" />
+
+                                <CheckBox
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:checked="false"
+                                    android:text="D"
+                                    android:fontFamily="@font/capriola"
+                                    android:textSize="30sp" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
