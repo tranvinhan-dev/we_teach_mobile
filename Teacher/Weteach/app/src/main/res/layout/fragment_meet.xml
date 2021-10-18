@@ -24,7 +24,7 @@
                 android:id="@+id/ivAvatar"
                 android:layout_width="36dp"
                 android:layout_height="38dp"
-                app:srcCompat="@drawable/_cc7a630624d20f7797cb4c8e93c09c1" />
+                app:srcCompat="@drawable/po_6_teacher" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -88,7 +88,7 @@
                     android:layout_height="match_parent"
                     android:background="@color/edit_text"
                     android:ems="10"
-                    android:hint="Search Class"
+                    android:hint="Search Tutor"
                     android:inputType="textPersonName"
                     android:paddingLeft="20dp"
                     tools:ignore="TouchTargetSizeCheck" />
@@ -99,6 +99,26 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:src="@drawable/ic_baseline_filter_alt_24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="279dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Your teachers"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
 
             </LinearLayout>
 
@@ -125,6 +145,14 @@
                         android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
+                        <ImageView
+                            android:id="@+id/imageView711"
+                            android:layout_width="52dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/po_1" />
+
                         <LinearLayout
                             android:layout_width="135dp"
                             android:layout_height="76dp"
@@ -139,7 +167,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="English A1"
+                                android:text="Mrs.Huong"
                                 android:textColor="@color/black"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
@@ -149,7 +177,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="10h-12h"
+                                android:text="English Teacher"
                                 android:textColor="@android:color/holo_blue_light" />
 
                             <LinearLayout
@@ -171,7 +199,7 @@
                                     android:layout_width="146dp"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
-                                    android:text="Today"
+                                    android:text="You have an exam this..."
                                     android:textColor="@color/main_theme" />
                             </LinearLayout>
 
@@ -204,6 +232,14 @@
                         android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
+                        <ImageView
+                            android:id="@+id/imageView71"
+                            android:layout_width="52dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/po_2" />
+
                         <LinearLayout
                             android:layout_width="135dp"
                             android:layout_height="76dp"
@@ -218,7 +254,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="English A2"
+                                android:text="Miss Thao"
                                 android:textColor="@color/black"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
@@ -228,7 +264,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="13h-15h"
+                                android:text="Math Teacher"
                                 android:textColor="@android:color/holo_blue_light" />
 
                             <LinearLayout
@@ -250,7 +286,7 @@
                                     android:layout_width="146dp"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
-                                    android:text="Tomorrow"
+                                    android:text="Mrs.Hong just added a..."
                                     android:textColor="@color/main_theme" />
                             </LinearLayout>
 
@@ -283,6 +319,14 @@
                         android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="52dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/po_3" />
+
                         <LinearLayout
                             android:layout_width="135dp"
                             android:layout_height="76dp"
@@ -297,7 +341,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="English A3"
+                                android:text="Mr.Dai"
                                 android:textColor="@color/black"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
@@ -307,7 +351,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/nunito"
-                                android:text="16h-18h"
+                                android:text="Chesmistry Teacher"
                                 android:textColor="@android:color/holo_blue_light" />
 
                             <LinearLayout
@@ -329,7 +373,7 @@
                                     android:layout_width="146dp"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
-                                    android:text="Today"
+                                    android:text="You have an exam this mor..."
                                     android:textColor="@color/main_theme" />
                             </LinearLayout>
 
