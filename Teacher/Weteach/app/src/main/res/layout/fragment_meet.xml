@@ -33,7 +33,7 @@
                 android:layout_margin="5dp"
                 android:fontFamily="@font/nunito"
                 android:paddingLeft="20dp"
-                android:text="Hello, Nhan Tran"
+                android:text="Hello, Teacher Dai"
                 android:textColor="@color/edit_text"
                 android:textSize="20sp" />
 

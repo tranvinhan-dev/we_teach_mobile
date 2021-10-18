@@ -74,7 +74,7 @@ public class HomeFragment extends Fragment {
         ivAvatar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _intent = new Intent(getActivity(), StudentProfileActivity.class);
+                Intent _intent = new Intent(getActivity(), TeacherProfileActivity.class);
                 startActivity(_intent);
             }
         });

@@ -74,7 +74,7 @@ public class MeetFragment extends Fragment {
         ivMeet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _intent = new Intent(getActivity(), MeetLoadingActivity.class);
+                Intent _intent = new Intent(getActivity(), YourStudentDetailActivity.class);
                 startActivity(_intent);
             }
         });

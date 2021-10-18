@@ -18,46 +18,30 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/ava"
-            android:layout_width="370dp"
-            android:layout_height="35dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="44dp"
-                android:layout_height="32dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.076"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.048"
-                app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
-
-            <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/ivAvatar"
                 android:layout_width="36dp"
                 android:layout_height="38dp"
-                android:layout_marginLeft="20dp"
-                app:srcCompat="@drawable/po_6_teacher" />
+                app:srcCompat="@drawable/po_8_avatar" />
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="218dp"
+                android:layout_width="299dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:fontFamily="@font/nunito"
-                android:text="Hello, Nhan Tran"
-                android:textColor="#FAFAFA"
+                android:paddingLeft="20dp"
+                android:text="Hello, Teacher Dai"
+                android:textColor="@color/edit_text"
                 android:textSize="20sp" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/ivNotification2"
                 android:layout_width="34dp"
                 android:layout_height="39dp"
                 app:srcCompat="@drawable/ic_baseline_notifications_none_24" />

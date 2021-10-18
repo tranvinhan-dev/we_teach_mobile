@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatStudentActivity">
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_theme"
+        android:backgroundTint="@color/main_theme"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivAvatar"
+                android:layout_width="36dp"
+                android:layout_height="38dp"
+                app:srcCompat="@drawable/po_8_avatar" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="299dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/nunito"
+                android:paddingLeft="20dp"
+                android:text="Hello, Teacher Dai"
+                android:textColor="@color/edit_text"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ivNotification2"
+                android:layout_width="34dp"
+                android:layout_height="39dp"
+                app:srcCompat="@drawable/ic_baseline_notifications_none_24" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="415dp"
+        android:layout_height="65dp"
+        android:background="@drawable/roundededittext"
+        android:padding="10dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_insert_emoticon_24" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName10"
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter Message"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textSize="16sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_send_24" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="408dp"
+        android:layout_height="545dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65">
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="286dp"
+            android:layout_height="39dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/roundededittext"
+            android:padding="10dp"
+            android:text="Em mo tai lieu co dua trang dau tien nha"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/round_button"
+            android:padding="10dp"
+            android:text="Da roi co oi"
+            android:textColor="@color/edit_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.991"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="302dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundededittext"
+            android:padding="10dp"
+            android:text="Hom nay minh hoc bai dau tien nhé !"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/round_button"
+            android:padding="10dp"
+            android:text="Da co"
+            android:textColor="@color/edit_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="302dp"
+            android:layout_height="38dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/roundededittext"
+            android:padding="10dp"
+            android:text="Chào em :) Em xem lịch học hôm nay chưa ?"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/round_button"
+            android:padding="10dp"
+            android:text="Xin chao co Huong !"
+            android:textColor="@color/edit_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
