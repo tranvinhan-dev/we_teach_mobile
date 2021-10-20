@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateQuizActivity">
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:background="@color/main_theme"
+        android:orientation="horizontal"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnComplete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Edit Teaching Profile" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView32o"
+                    android:layout_width="279dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Teaching Profile"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="279dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nunito_bold"
+                        android:text="Subject"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="20dp"
+                        android:text="English"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView32o"
+                            android:layout_width="279dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/nunito_bold"
+                            android:text="Your Description"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/editTextTextMultiLine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:ems="10"
+                        android:gravity="start|top"
+                        android:inputType="textMultiLine"
+                        android:padding="20dp"
+                        android:text="Hello All! My name is Thien Huong. I love seeing a spark of understanding in a childs eyes -- it is why I do what I do. My naturally energetic personality helps bring a fun aspect to any classroom. I look forward to teaching you! I love talking about history and current events! My teaching style is very casual, and I can help with everything from pronunciation, grammar, and idioms! "
+                        android:textColor="@color/material_on_background_emphasis_medium"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="279dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/nunito_bold"
+                            android:text="Availability"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="378dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/round_button"
+                        android:orientation="horizontal"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp">
+
+                        <LinearLayout
+                            android:layout_width="48dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:textAlignment="center">
+
+                            <TextView
+                                android:id="@+id/textView51"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Sun"
+                                android:textAlignment="center"
+                                android:textColor="@color/edit_text" />
+
+                            <TextView
+                                android:id="@+id/textView61"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="42dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:textAlignment="center">
+
+                            <TextView
+                                android:id="@+id/textView52"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Mon"
+                                android:textAlignment="center"
+                                android:textColor="@color/edit_text" />
+
+                            <TextView
+                                android:id="@+id/textView62"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="2"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="49dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:textAlignment="center">
+
+                            <TextView
+                                android:id="@+id/textView53"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tue"
+                                android:textAlignment="center"
+                                android:textColor="@color/edit_text" />
+
+                            <TextView
+                                android:id="@+id/textView63"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="52dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:textAlignment="center">
+
+                            <TextView
+                                android:id="@+id/textView54"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Wed"
+                                android:textAlignment="center"
+                                android:textColor="@color/edit_text" />
+
+                            <TextView
+                                android:id="@+id/textView64"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="4"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="48dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/roundededittext"
+                            android:orientation="vertical"
+                            android:textAlignment="center">
+
+                            <TextView
+                                android:id="@+id/textView55"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Thu"
+                                android:textAlignment="center"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/textView65"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@android:color/holo_blue_bright"
+                                android:text="5"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="52dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:textAlignment="center">
+
+                            <TextView
+                                android:id="@+id/textView56"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Fri"
+                                android:textAlignment="center"
+                                android:textColor="@color/edit_text" />
+
+                            <TextView
+                                android:id="@+id/textView66"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="6"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="51dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:textAlignment="center">
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Sat"
+                                android:textAlignment="center"
+                                android:textColor="@color/edit_text" />
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="7"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/round_button"
+                            android:backgroundTint="#6FF8C1"
+                            android:padding="5dp"
+                            android:text="8h00 -9h00"
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/round_button"
+                            android:backgroundTint="#6FF8C1"
+                            android:padding="5dp"
+                            android:text=" 9h15 - 10h15"
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/round_button"
+                            android:backgroundTint="#6FF8C1"
+                            android:padding="5dp"
+                            android:text="10h30 - 11h30"
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/round_button"
+                            android:backgroundTint="#6FF8C1"
+                            android:padding="5dp"
+                            android:text="11h00 -12h00"
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/round_button"
+                            android:backgroundTint="#6FF8C1"
+                            android:padding="5dp"
+                            android:text=" 13h15 - 14h15"
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/round_button"
+                            android:backgroundTint="#6FF8C1"
+                            android:padding="5dp"
+                            android:text="15h30 - 16h30"
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="279dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/nunito_bold"
+                            android:text="Level"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView94"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/roundededittext"
+                            android:padding="5dp"
+                            android:text="Primary School"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView97"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/roundededittext"
+                            android:padding="5dp"
+                            android:text="Secondary School"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/textView109"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/roundededittext"
+                            android:padding="5dp"
+                            android:text="High School"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="116dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_bg"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView29"
+                            android:layout_width="203dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_baseline_school_24" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingLeft="20dp">
+
+                            <TextView
+                                android:id="@+id/textView129"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/nunito"
+                                android:text="Primary School"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/textView131"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Grade 1 - 5" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="42dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView137"
+                                    android:layout_width="19dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="$150"
+                                    android:textColor="@color/black"
+                                    android:textSize="24sp" />
+
+                                <TextView
+                                    android:id="@+id/textView138"
+                                    android:layout_width="130dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="per month" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="116dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_bg"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView29"
+                            android:layout_width="203dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_baseline_school_24" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingLeft="20dp">
+
+                            <TextView
+                                android:id="@+id/textView129"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/nunito"
+                                android:text="Secondary School"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/textView131"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Grade 6 - 9" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="42dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView137"
+                                    android:layout_width="19dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="$200"
+                                    android:textColor="@color/black"
+                                    android:textSize="24sp" />
+
+                                <TextView
+                                    android:id="@+id/textView138"
+                                    android:layout_width="130dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="per month" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="116dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edittext_bg"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView29"
+                            android:layout_width="203dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_baseline_school_24" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingLeft="20dp">
+
+                            <TextView
+                                android:id="@+id/textView129"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/nunito"
+                                android:text="High School"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/textView131"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Grade 10 - 12" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="42dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView137"
+                                    android:layout_width="19dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="$300"
+                                    android:textColor="@color/black"
+                                    android:textSize="24sp" />
+
+                                <TextView
+                                    android:id="@+id/textView138"
+                                    android:layout_width="130dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="per month" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,14 +11,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ImageView;
-
-import androidx.fragment.app.Fragment;
-import android.widget.Button;
-
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link MeetFragment#newInstance} factory method to
@@ -67,21 +59,16 @@ public class MeetFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
-        View view1 = inflater.inflate(R.layout.fragment_meet, container, false);
-        ImageView ivMeet = view1.findViewById(R.id.ivMeet);
+        View view = inflater.inflate(R.layout.fragment_meet, container, false);
+        ImageView ivMeet = view.findViewById(R.id.ivMeet);
         ivMeet.setClickable(true);
         ivMeet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _intent = new Intent(getActivity(), YourStudentDetailActivity.class);
+                Intent _intent = new Intent(getActivity(), HiredDetailActivity.class);
                 startActivity(_intent);
             }
         });
-        return view1;
-
-
-
-
+        return view;
     }
 }

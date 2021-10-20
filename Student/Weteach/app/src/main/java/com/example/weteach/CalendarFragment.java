@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 
 /**
@@ -67,7 +68,7 @@ public class CalendarFragment extends Fragment {
         llTeacher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _intent = new Intent(getActivity(), MeetLoadingActivity.class);
+                Intent _intent = new Intent(getActivity(),MeetLoadingActivity.class);
                 startActivity(_intent);
             }
         });

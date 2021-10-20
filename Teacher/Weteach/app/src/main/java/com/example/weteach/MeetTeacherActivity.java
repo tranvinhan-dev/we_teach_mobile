@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 public class MeetTeacherActivity extends AppCompatActivity {
 
     @Override

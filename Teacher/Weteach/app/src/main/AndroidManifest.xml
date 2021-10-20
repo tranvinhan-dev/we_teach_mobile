@@ -12,10 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
-            android:name=".ChatStudentActivity"
+            android:name=".RegisterTeachingActivity"
             android:exported="true" />
         <activity
-            android:name=".YourStudentDetailActivity"
+            android:name=".EditTeachingProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditTeachingProfile"
+            android:exported="true" />
+        <activity
+            android:name=".TeachingProfileActivity"
             android:exported="true" />
         <activity
             android:name=".UpdateQuizActivity"
@@ -24,43 +30,31 @@
             android:name=".CreateQuizActivity"
             android:exported="true" />
         <activity
-            android:name=".EditTeacherProfileTeaching"
+            android:name=".ChangeScheduleActivity"
             android:exported="true" />
         <activity
-            android:name=".EditProfileTeachinhActivity"
+            android:name=".RequestActivity"
             android:exported="true" />
         <activity
-            android:name=".EditProfileActivity"
+            android:name=".RequestSuccessActivity"
             android:exported="true" />
         <activity
-            android:name=".ChangeScheduleStudentActivity"
+            android:name=".PaymentTeacherActivity"
             android:exported="true" />
         <activity
-            android:name=".ManageTeachProfileActivity"
+            android:name=".RequestRemoveActivity"
             android:exported="true" />
         <activity
-            android:name=".TeacherRegisterTeachingActivity"
-            android:exported="true" />
-        <activity
-            android:name=".QuizReviewActivity"
-            android:exported="true" />
-        <activity
-            android:name=".QuizAttemptActivity"
+            android:name=".ChatActivity"
             android:exported="true" />
         <activity
             android:name=".HiredDetailActivity"
-            android:exported="true" />
-        <activity
-            android:name=".TeacherDetailActivity"
             android:exported="true" />
         <activity
             android:name=".RegisterStep2Activity"
             android:exported="true" />
         <activity
             android:name=".FilterHireActivity"
-            android:exported="true" />
-        <activity
-            android:name=".FilterActivity"
             android:exported="true" />
         <activity
             android:name=".TeacherProfileActivity"
@@ -81,9 +75,6 @@
             android:name=".MeetLoadingActivity"
             android:exported="true" />
         <activity
-            android:name=".Edit_QuizActivity"
-            android:exported="false" />
-        <activity
             android:name=".StudentSignUpFragment"
             android:exported="true" />
         <activity
@@ -91,9 +82,6 @@
             android:exported="true" />
         <activity
             android:name=".SecondPageActivity"
-            android:exported="true" />
-        <activity
-            android:name=".HireActivity"
             android:exported="true" />
         <activity
             android:name=".LoginActivity"

@@ -113,8 +113,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -141,359 +141,160 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="229dp"
+                    android:layout_height="185dp"
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView153"
-                        android:layout_width="match_parent"
-                        android:layout_height="4dp"
-                        android:layout_weight="1"
-                        android:text="Time Available (Hours):" />
-
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="22dp"
-                        android:layout_margin="10dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView1102"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/textView153"
+                            android:layout_width="match_parent"
+                            android:layout_height="4dp"
                             android:layout_weight="1"
-                            android:text="From"
-                            android:textAlignment="center" />
+                            android:text="Price for a session($):" />
 
-                        <EditText
-                            android:id="@+id/edtMin2"
-                            android:layout_width="200dp"
-                            android:layout_height="wrap_content"
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="22dp"
+                            android:layout_margin="10dp"
                             android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="textPersonName"
-                            android:text="1h00"
-                            android:textAlignment="center" />
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView1101"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="MIN"
+                                android:textAlignment="center" />
+
+                            <EditText
+                                android:id="@+id/edtMin1"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:inputType="textPersonName"
+                                android:text="10"
+                                android:textAlignment="center" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="22dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView110"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="MAX"
+                                android:textAlignment="center" />
+
+                            <EditText
+                                android:id="@+id/edtMax1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:inputType="textPersonName"
+                                android:text="1000"
+                                android:textAlignment="center" />
+                        </LinearLayout>
+
+                        <com.google.android.material.slider.RangeSlider
+                            android:id="@+id/rlPrice1"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:valueFrom="1.0"
+                            android:valueTo="100.0"
+                            app:labelBehavior="floating"
+                            app:thumbColor="@color/main_theme"
+                            app:trackColorActive="@color/main_theme"
+                            app:trackColorInactive="#C1CFC9"
+                            app:values="@array/initial_slider_values"
+                            tools:ignore="SpeakableTextPresentCheck" />
                     </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="22dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textView110212"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="To"
-                            android:textAlignment="center" />
-
-                        <EditText
-                            android:id="@+id/edtMax2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="textPersonName"
-                            android:text="24h00"
-                            android:textAlignment="center" />
-                    </LinearLayout>
-
-                    <com.google.android.material.slider.RangeSlider
-                        android:id="@+id/rlPrice2"
-                        android:layout_width="match_parent"
-                        android:layout_height="115dp"
-                        android:valueFrom="1.0"
-                        android:valueTo="100.0"
-                        app:labelBehavior="floating"
-                        app:thumbColor="@color/main_theme"
-                        app:trackColorActive="@color/main_theme"
-                        app:trackColorInactive="#C1CFC9"
-                        app:values="@array/initial_slider_values"
-                        tools:ignore="SpeakableTextPresentCheck" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView16"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Availability:" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkBox24"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:checked="true"
-                            android:text="Monday" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox34"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:checked="true"
-                            android:text="Tuesday" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox4"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:checked="true"
-                            android:text="Wednesday" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkBox5"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:checked="true"
-                            android:text="Thursday" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox6"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:checked="true"
-                            android:text="Friday" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox7"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:checked="true"
-                            android:text="Saturday" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox8"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:checked="true"
-                            android:text="Sunday" />
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView153"
-                        android:layout_width="match_parent"
-                        android:layout_height="4dp"
-                        android:layout_weight="1"
-                        android:text="Price for a session($):" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="22dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textView110"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="MIN"
-                            android:textAlignment="center" />
-
-                        <EditText
-                            android:id="@+id/edtMin1"
-                            android:layout_width="200dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="textPersonName"
-                            android:text="10"
-                            android:textAlignment="center" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="22dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textView11021"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="MAX"
-                            android:textAlignment="center" />
-
-                        <EditText
-                            android:id="@+id/edtMax1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="textPersonName"
-                            android:text="1000"
-                            android:textAlignment="center" />
-                    </LinearLayout>
-
-                    <com.google.android.material.slider.RangeSlider
-                        android:id="@+id/rlPrice1"
-                        android:layout_width="match_parent"
-                        android:layout_height="52dp"
-                        android:valueFrom="1.0"
-                        android:valueTo="100.0"
-                        app:labelBehavior="floating"
-                        app:thumbColor="@color/main_theme"
-                        app:trackColorActive="@color/main_theme"
-                        app:trackColorInactive="#C1CFC9"
-                        app:values="@array/initial_slider_values"
-                        tools:ignore="SpeakableTextPresentCheck" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView1541"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Student Level" />
-
-                    <Spinner
-                        android:id="@+id/spinner451"
-                        android:layout_width="match_parent"
-                        android:layout_height="52dp"
-                        android:layout_weight="1"
-                        android:entries="@array/level"
-                        android:spinnerMode="dialog" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView1542"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Teacher Rating:" />
-
-                    <Spinner
-                        android:id="@+id/spinner452"
-                        android:layout_width="match_parent"
-                        android:layout_height="52dp"
-                        android:layout_weight="1"
-                        android:entries="@array/rating"
-                        android:spinnerMode="dialog" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="78dp"
                     android:layout_weight="1"
                     android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/textView15"
                         android:layout_width="match_parent"
-                        android:layout_height="32dp"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Gender:" />
+                        android:text="Availability:" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkBox3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:checked="true"
-                            android:text="Male" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Female" />
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView154"
+                    <CheckBox
+                        android:id="@+id/checkBox2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Location" />
+                        android:checked="true"
+                        android:text="Monday" />
 
-                    <Spinner
-                        android:id="@+id/spinner45"
+                    <CheckBox
+                        android:id="@+id/checkBox3"
                         android:layout_width="match_parent"
-                        android:layout_height="52dp"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:entries="@array/location"
-                        android:spinnerMode="dialog" />
-                </LinearLayout>
+                        android:checked="true"
+                        android:text="Tuesday" />
 
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/button"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/roundededittext"
-                    android:backgroundTint="@color/main_theme"
-                    android:text="Search"
-                    android:textColor="@color/edit_text" />
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Wednesday" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Thursday" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Friday" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Saturday" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Sunday" />
+
+                </LinearLayout>
 
             </LinearLayout>
 

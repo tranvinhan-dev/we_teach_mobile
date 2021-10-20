@@ -12,16 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weteach">
         <activity
-            android:name=".FeedbackActivity"
+            android:name=".RequestSuccessActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentForHiredActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentTeacherActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RequestRemoveActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FeedbackStudentActivity"
             android:exported="true" />
         <activity
             android:name=".ChatActivity"
-            android:exported="true" />
-        <activity
-            android:name=".HireSuccessActivity"
-            android:exported="true" />
-        <activity
-            android:name=".PaymentActivity"
             android:exported="true" />
         <activity
             android:name=".HiredDetailActivity"

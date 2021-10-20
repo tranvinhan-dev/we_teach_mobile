@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main_theme"
-    android:backgroundTint="@color/edit_text"
     tools:context=".MeetTeacherActivity">
 
     <LinearLayout
@@ -67,8 +66,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/main_theme"
             app:srcCompat="@drawable/ic_baseline_fullscreen_24"
-            app:tint="@color/edit_text"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck"
+            app:tint="@color/edit_text" />
 
         <ImageButton
             android:id="@+id/tbCam"
@@ -77,8 +76,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/main_theme"
             app:srcCompat="@drawable/ic_baseline_videocam_24"
-            app:tint="@color/edit_text"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck"
+            app:tint="@color/edit_text" />
 
         <ImageButton
             android:id="@+id/ibSound"
@@ -86,7 +85,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/main_theme"
-            app:srcCompat="@drawable/ic_baseline_volume_up_24"
+            app:srcCompat="@drawable/ic_baseline_mic_24"
             app:tint="@color/edit_text"
             tools:ignore="SpeakableTextPresentCheck" />
 
@@ -122,8 +121,7 @@
             android:layout_width="378dp"
             android:layout_height="match_parent"
             android:background="@drawable/round_video_call"
-            android:scaleType="centerInside"
-            app:srcCompat="@drawable/po_10" />
+            app:srcCompat="@drawable/po_5" />
 
     </androidx.cardview.widget.CardView>
 
@@ -149,8 +147,7 @@
             android:layout_width="94dp"
             android:layout_height="142dp"
             android:background="@drawable/roundededittext"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/po_4" />
+            app:srcCompat="@drawable/po_10" />
     </androidx.cardview.widget.CardView>
 
     <ScrollView
@@ -190,33 +187,31 @@
             <TextView
                 android:id="@+id/textView58"
                 android:layout_width="wrap_content"
-                android:layout_height="41dp"
-                android:layout_margin="10dp"
-                android:layout_marginTop="8dp"
-                android:autoText="false"
-                android:background="@drawable/roundededittext"
-                android:padding="10dp"
-                android:text="Da roi thay oi!"
-                android:textAlignment="textStart"
-                android:textColor="@color/black"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView69" />
-
-            <TextView
-                android:id="@+id/textView59"
-                android:layout_width="wrap_content"
-                android:layout_height="43dp"
+                android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/round_button"
                 android:padding="10dp"
-                android:text="Hôm nay mình học bài đầu tiên nhé!"
-                android:textAlignment="textStart"
+                android:text="Da roi co oi"
                 android:textColor="@color/edit_text"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.991"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="302dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundededittext"
+                android:padding="10dp"
+                android:text="Hom nay minh hoc bai dau tien nhé !"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView58" />
 
@@ -225,49 +220,46 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:layout_marginTop="12dp"
-                android:background="@drawable/roundededittext"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/round_button"
                 android:padding="10dp"
-                android:text="Da"
-                android:textColor="@color/black"
+                android:text="Da co"
+                android:textColor="@color/edit_text"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView59" />
 
             <TextView
                 android:id="@+id/textView70"
-                android:layout_width="151dp"
-                android:layout_height="41dp"
+                android:layout_width="302dp"
+                android:layout_height="38dp"
                 android:layout_margin="10dp"
-                android:layout_marginTop="16dp"
-                android:autoText="false"
+                android:layout_marginTop="8dp"
                 android:background="@drawable/roundededittext"
-
                 android:padding="10dp"
-                android:text="Em chao thay !"
+                android:text="Chào em :) Em xem lịch học hôm nay chưa ?"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@+id/textView69" />
 
             <TextView
                 android:id="@+id/textView69"
                 android:layout_width="wrap_content"
-                android:layout_height="39dp"
+                android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/round_button"
                 android:padding="10dp"
-                android:text="Chào em :) Em xem lịch học hôm nay chưa ?"
-                android:textAlignment="textStart"
+                android:text="Xin chao co Huong !"
                 android:textColor="@color/edit_text"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView70" />
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

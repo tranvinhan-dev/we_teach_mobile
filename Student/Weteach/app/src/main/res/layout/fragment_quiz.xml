@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_on_primary_disabled"
-    tools:context=".QuizFragment">
+    android:background="@color/main_theme"
+    tools:context=".QuizFragment"
+    android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/main_ln"
@@ -13,7 +14,10 @@
         android:layout_height="70dp"
         android:background="@color/main_theme"
         android:backgroundTint="@color/main_theme"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <LinearLayout
@@ -51,40 +55,71 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/ln1"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_below="@+id/main_ln"
-        android:background="@drawable/roundededittext"
-        android:backgroundTint="@color/edit_text"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textView49"
-            android:layout_width="171dp"
-            android:layout_height="66dp"
-            android:layout_gravity="center_horizontal"
-            android:text="QUIZ"
-            android:textAlignment="center"
-            android:textSize="50dp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="657dp"
+        android:layout_height="663dp"
         android:layout_below="@+id/ln1"
-        android:layout_marginTop="0dp"
-        android:background="@drawable/roundededittext"
-        android:backgroundTint="#72534D4D">
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#72534D4D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_ln">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="50dp"
+            android:background="@drawable/view_bg"
             android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:background="@drawable/roundededittext"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/ivSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:foregroundTint="@color/black"
+                    android:src="@drawable/ic_baseline_search_24"
+                    app:tint="@color/black" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName"
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/edit_text"
+                    android:ems="10"
+                    android:hint="Search by date"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="20dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView1083"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Your Quiz"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/attempted1"
@@ -553,4 +588,4 @@
         </LinearLayout>
     </ScrollView>
 
-</RelativeLayout>
+</LinearLayout>

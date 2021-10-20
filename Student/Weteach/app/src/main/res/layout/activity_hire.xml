@@ -302,11 +302,11 @@
                                         android:textColor="@android:color/holo_blue_light" />
 
                                     <TextView
-                                        android:id="@+id/textView11"
+                                        android:id="@+id/textView126"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:fontFamily="@font/nunito"
-                                        android:text="$150/session"
+                                        android:text="$150/month"
                                         android:textStyle="bold" />
 
                                     <LinearLayout
@@ -315,15 +315,16 @@
                                         android:orientation="horizontal">
 
                                         <ImageView
-                                            android:id="@+id/imageView112a"
+                                            android:id="@+id/imageView112"
                                             android:layout_width="wrap_content"
                                             android:layout_height="match_parent"
                                             android:layout_weight="1"
+                                            android:backgroundTint="@color/star"
                                             android:src="@drawable/ic_baseline_star_24"
                                             app:tint="@color/star" />
 
                                         <TextView
-                                            android:id="@+id/textView491a"
+                                            android:id="@+id/textView491"
                                             android:layout_width="112dp"
                                             android:layout_height="wrap_content"
                                             android:text="4.7"
@@ -397,11 +398,11 @@
                                         android:textColor="@android:color/holo_blue_light" />
 
                                     <TextView
-                                        android:id="@+id/textView13"
+                                        android:id="@+id/textView127"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:fontFamily="@font/nunito"
-                                        android:text="$200/session"
+                                        android:text="$200/month"
                                         android:textStyle="bold" />
 
                                     <LinearLayout
@@ -410,18 +411,19 @@
                                         android:orientation="horizontal">
 
                                         <ImageView
-                                            android:id="@+id/imageView112b"
+                                            android:id="@+id/imageView112"
                                             android:layout_width="wrap_content"
                                             android:layout_height="match_parent"
                                             android:layout_weight="1"
+                                            android:backgroundTint="@color/star"
                                             android:src="@drawable/ic_baseline_star_24"
                                             app:tint="@color/star" />
 
                                         <TextView
-                                            android:id="@+id/textView491b"
+                                            android:id="@+id/textView491"
                                             android:layout_width="112dp"
                                             android:layout_height="wrap_content"
-                                            android:text="4.9"
+                                            android:text="4.5"
                                             android:textColor="@color/star" />
                                     </LinearLayout>
 
@@ -492,11 +494,11 @@
                                         android:textColor="@android:color/holo_blue_light" />
 
                                     <TextView
-                                        android:id="@+id/textView14"
+                                        android:id="@+id/textView128"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:fontFamily="@font/nunito"
-                                        android:text="$150/session"
+                                        android:text="$150/month"
                                         android:textStyle="bold" />
 
                                     <LinearLayout
@@ -509,6 +511,7 @@
                                             android:layout_width="wrap_content"
                                             android:layout_height="match_parent"
                                             android:layout_weight="1"
+                                            android:backgroundTint="@color/star"
                                             android:src="@drawable/ic_baseline_star_24"
                                             app:tint="@color/star" />
 
@@ -516,7 +519,7 @@
                                             android:id="@+id/textView491"
                                             android:layout_width="112dp"
                                             android:layout_height="wrap_content"
-                                            android:text="5.0"
+                                            android:text="4.7"
                                             android:textColor="@color/star" />
                                     </LinearLayout>
 

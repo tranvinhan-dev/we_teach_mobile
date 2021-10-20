@@ -6,26 +6,5 @@
     <string name="htSearch">Searching for teacher</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string-array name="Subject">
-        <item>English</item>
-        <item>Biology</item>
-        <item>Math</item>
-        <item>Chemistry</item>
-        <item>Physics</item>
-        <item>Literature</item>
-    </string-array>
-    <string-array name="Level">
-        <item>Grade 1</item>
-        <item>Grade 2</item>
-        <item>Grade 3</item>
-        <item>Grade 4</item>
-        <item>Grade 5</item>
-        <item>Grade 6</item>
-        <item>Grade 7</item>
-        <item>Grade 8</item>
-        <item>Grade 9</item>
-        <item>Grade 10</item>
-        <item>Grade 11</item>
-        <item>Grade 12</item>
-    </string-array>
+
 </resources>

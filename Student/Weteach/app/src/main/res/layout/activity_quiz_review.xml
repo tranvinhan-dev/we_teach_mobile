@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/material_on_primary_disabled"
-    tools:context=".QuizReviewActivity"
-    tools:ignore="MissingDefaultResource">
+    tools:context=".QuizFragment">
 
     <LinearLayout
         android:id="@+id/main_ln"
@@ -143,7 +142,7 @@
 
 
                                 <EditText
-                                    android:id="@+id/editTextTextMultiLine45"
+                                    android:id="@+id/editTextTextMultiLine4"
                                     android:layout_width="match_parent"
                                     android:layout_height="187dp"
                                     android:ems="10"

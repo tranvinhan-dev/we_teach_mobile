@@ -85,9 +85,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/main_theme"
-            app:srcCompat="@drawable/ic_baseline_volume_up_24"
-            tools:ignore="SpeakableTextPresentCheck"
-            app:tint="@color/edit_text" />
+            app:srcCompat="@drawable/ic_baseline_mic_24"
+            app:tint="@color/edit_text"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/ibOff"
@@ -159,9 +159,10 @@
         android:paddingRight="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.949">
+        app:layout_constraintVertical_bias="0.93">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

@@ -7,12 +7,12 @@
     tools:context=".First_Page">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnSignUp"
         android:layout_width="268dp"
-        android:layout_height="56dp"
+        android:layout_height="53dp"
         android:background="@drawable/round_button"
         android:backgroundTint="@color/edit_text"
-        android:text="@string/btnSignIn"
+        android:text="@string/btnSignUp"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -22,15 +22,15 @@
         app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93" />
+        app:layout_constraintVertical_bias="0.806" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnSignUp"
+        android:id="@+id/btnLogin"
         android:layout_width="268dp"
-        android:layout_height="53dp"
+        android:layout_height="56dp"
         android:background="@drawable/round_button"
         android:backgroundTint="@color/main_theme"
-        android:text="@string/btnSignUp"
+        android:text="@string/btnSignIn"
         android:textAlignment="center"
         android:textColor="@color/edit_text"
         android:textSize="20sp"
@@ -40,7 +40,7 @@
         app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.806" />
+        app:layout_constraintVertical_bias="0.93" />
 
     <TextView
         android:id="@+id/textView2"

@@ -1,9 +1,6 @@
 package com.example.weteach;
 
-import android.app.Dialog;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -12,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
 /**
@@ -72,27 +68,16 @@ public class CalendarFragment extends Fragment {
         llTeacher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _intent = new Intent(getActivity(), MeetLoadingActivity.class);
+                Intent _intent = new Intent(getActivity(),MeetLoadingActivity.class);
                 startActivity(_intent);
             }
         });
-        ImageButton btnEdit = view.findViewById(R.id.ibEdit);
-        Dialog m = new Dialog(getActivity());
-        btnEdit.setClickable(true);
-        btnEdit.setOnClickListener(new View.OnClickListener() {
+
+        Button btnChange2 = view.findViewById(R.id.btnChange2);
+        btnChange2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                m.setContentView(R.layout.edit_specific_time_for_student_popup);
-                m.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-                m.show();
-            }
-        });
-        Button btnChange= view.findViewById(R.id.btnChange);
-        btnChange.setClickable(true);
-        btnChange.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent _intent = new Intent(getActivity(),ChangeScheduleStudentActivity.class);
+                Intent _intent = new Intent(getActivity(),ChangeScheduleActivity.class);
                 startActivity(_intent);
             }
         });

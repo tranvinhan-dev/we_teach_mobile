@@ -17,16 +17,32 @@ import android.widget.Button;
         btnChat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _inten =new Intent(HiredDetailActivity.this, ChatActivity.class);
-                startActivity(_inten);
+                Intent _intent = new Intent(HiredDetailActivity.this, ChatActivity.class);
+                startActivity(_intent);
             }
         });
         Button btnFeedback = findViewById(R.id.btnFeedback);
         btnFeedback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _inten =new Intent(HiredDetailActivity.this, FeedbackActivity.class);
-                startActivity(_inten);
+                Intent _intent = new Intent(HiredDetailActivity.this, FeedbackStudentActivity.class);
+                startActivity(_intent);
+            }
+        });
+        Button btnCancel = findViewById(R.id.btnRCancel);
+        btnCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent _intent = new Intent(HiredDetailActivity.this, RequestRemoveActivity.class);
+                startActivity(_intent);
+            }
+        });
+        Button btnPayment = findViewById(R.id.btnPayment2);
+        btnPayment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent _intent = new Intent(HiredDetailActivity.this, PaymentTeacherActivity.class);
+                startActivity(_intent);
             }
         });
     }

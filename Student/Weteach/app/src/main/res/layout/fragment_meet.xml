@@ -105,18 +105,16 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView32"
-                    android:layout_width="279dp"
+                    android:id="@+id/textView1083"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_margin="20dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/nunito_bold"
-                    android:text="Your teachers"
+                    android:text="Your Teachers"
                     android:textColor="@color/black"
                     android:textSize="24sp" />
 
@@ -145,13 +143,31 @@
                         android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:id="@+id/imageView711"
-                            android:layout_width="52dp"
+                        <androidx.cardview.widget.CardView
+
+                            android:id="@+id/cardView"
+                            android:layout_width="40dp"
                             android:layout_height="match_parent"
+                            android:layout_margin="10dp"
                             android:layout_weight="1"
-                            android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/po_1" />
+                            android:elevation="10dp"
+                            app:cardBackgroundColor="#E1F1FD"
+                            app:cardCornerRadius="100dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.050000012">
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/po_1" />
+
+                        </androidx.cardview.widget.CardView>
 
                         <LinearLayout
                             android:layout_width="135dp"
@@ -232,13 +248,31 @@
                         android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:id="@+id/imageView71"
-                            android:layout_width="52dp"
+                        <androidx.cardview.widget.CardView
+
+                            android:id="@+id/cardView"
+                            android:layout_width="37dp"
                             android:layout_height="match_parent"
+                            android:layout_margin="10dp"
                             android:layout_weight="1"
-                            android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/po_2" />
+                            android:elevation="10dp"
+                            app:cardBackgroundColor="#E1F1FD"
+                            app:cardCornerRadius="100dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.050000012">
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/po_2" />
+
+                        </androidx.cardview.widget.CardView>
 
                         <LinearLayout
                             android:layout_width="135dp"
@@ -319,13 +353,31 @@
                         android:background="@drawable/bg_1_teacher"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:id="@+id/imageView7"
-                            android:layout_width="52dp"
+                        <androidx.cardview.widget.CardView
+
+                            android:id="@+id/cardView"
+                            android:layout_width="40dp"
                             android:layout_height="match_parent"
+                            android:layout_margin="10dp"
                             android:layout_weight="1"
-                            android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/po_3" />
+                            android:elevation="10dp"
+                            app:cardBackgroundColor="#E1F1FD"
+                            app:cardCornerRadius="100dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.050000012">
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/po_3" />
+
+                        </androidx.cardview.widget.CardView>
 
                         <LinearLayout
                             android:layout_width="135dp"

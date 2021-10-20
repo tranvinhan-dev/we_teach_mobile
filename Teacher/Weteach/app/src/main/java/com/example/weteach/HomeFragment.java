@@ -3,6 +3,7 @@ package com.example.weteach;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -74,11 +75,19 @@ public class HomeFragment extends Fragment {
         ivAvatar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _intent = new Intent(getActivity(), TeacherProfileActivity.class);
+                Intent _intent = new Intent(getActivity(), StudentProfileActivity.class);
                 startActivity(_intent);
             }
         });
-
+        CardView cdRequest = rootView.findViewById(R.id.cdRequest);
+        cdRequest.setClickable(true);
+        cdRequest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent _intent = new Intent(getActivity(), RequestActivity.class);
+                startActivity(_intent);
+            }
+        });
         return rootView;
 
     }

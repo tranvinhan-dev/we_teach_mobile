@@ -36,39 +36,40 @@ public class RegisterStep2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_step2);
+
         Button btnSignin = findViewById(R.id.btnSignin2);
         btnSignin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent _intent = new Intent(RegisterStep2Activity.this,TeacherRegisterTeachingActivity.class);
+                Intent _intent = new Intent(RegisterStep2Activity.this,RegisterTeachingActivity.class);
                 RegisterStep2Activity.this.startActivity(_intent);
             }
         });
-        btnBackIC = (ImageButton) findViewById(R.id.btnBackIC);
-        btnFrontIC = (ImageButton) findViewById(R.id.btnFrontIC);
-        btnCetification = (ImageButton) findViewById(R.id.btnCertificate);
-
-        imgvBackIC = (ImageView) findViewById(R.id.imgvBackIC);
-        imgvFontIC = (ImageView) findViewById(R.id.imgvFrontIC);
-        imgvCertificate = (ImageView) findViewById(R.id.imgvCertificate);
-        btnFrontIC.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                choosePicture();
-            }
-        });
-        btnBackIC.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                choosePictureForBackIC();
-            }
-        });
-        btnCetification.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                choosePictureForCT();
-            }
-        });
+//        btnBackIC = (ImageButton) findViewById(R.id.btnBackIC);
+//        btnFrontIC = (ImageButton) findViewById(R.id.btnFrontIC);
+//        btnCetification = (ImageButton) findViewById(R.id.btnCertificate);
+//
+//        imgvBackIC = (ImageView) findViewById(R.id.imgvBackIC);
+//        imgvFontIC = (ImageView) findViewById(R.id.imgvFrontIC);
+//        imgvCertificate = (ImageView) findViewById(R.id.imgvCertificate);
+//        btnFrontIC.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                choosePicture();
+//            }
+//        });
+//        btnBackIC.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                choosePictureForBackIC();
+//            }
+//        });
+//        btnCetification.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                choosePictureForCT();
+//            }
+//        });
     }
     private void choosePicture(){
         AlertDialog.Builder builder = new AlertDialog.Builder(RegisterStep2Activity.this);

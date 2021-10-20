@@ -58,27 +58,29 @@
 
     <LinearLayout
         android:id="@+id/ln_time"
-        android:layout_width="405dp"
-        android:layout_height="244dp"
+        android:layout_width="418dp"
+        android:layout_height="302dp"
         android:layout_below="@+id/ln1"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45">
+        app:layout_constraintVertical_bias="0.411">
 
         <TextView
-            android:id="@+id/textView112"
+            android:id="@+id/textView117"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="Choose the correct answer:"
+            android:text="Choose the correct answer :"
             android:textSize="20sp" />
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+        <EditText
+            android:id="@+id/editTextTextMultiLine2"
+            android:layout_width="391dp"
+            android:layout_height="275dp"
             android:layout_margin="10dp"
             android:background="@drawable/roundededittext"
             android:backgroundTint="#66AAA7A7"
@@ -86,27 +88,11 @@
             android:gravity="start|top"
             android:inputType="textMultiLine"
             android:padding="20dp"
+            android:text="Question 1: \nShe had to hang ___ because someone else wanted to use the phone.\nA.in\nB.at\nC.on\nD.of"
 
-            tools:ignore="SpeakableTextPresentCheck">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <EditText
-                    android:id="@+id/editTextTextMultiLine2"
-                    android:layout_width="match_parent"
-                    android:layout_height="154dp"
-                    android:ems="10"
-                    android:gravity="start|top"
-                    android:inputType="textMultiLine"
-                    android:text="Question 1: \nShe had to hang ___ because someone else wanted to use the phone."
-                    android:textSize="20sp" />
-            </LinearLayout>
-        </ScrollView>
+            android:textSize="20sp"
+            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
-
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/rl2"
@@ -126,7 +112,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/roundededittext"
             android:backgroundTint="#496DDA"
-            android:text="B. in"
+            android:text="B"
             android:textColor="@color/white"
             android:textSize="17dp"
             android:textStyle="bold"
@@ -145,8 +131,7 @@
             android:layout_toRightOf="@+id/button1"
             android:background="@drawable/round_button"
             android:backgroundTint="#496DDA"
-            android:text="A. up"
-
+            android:text="A"
             android:textColor="@color/white"
             android:textSize="17dp"
             android:textStyle="bold"
@@ -163,7 +148,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/roundededittext"
             android:backgroundTint="#496DDA"
-            android:text="D. off"
+            android:text="D"
             android:textColor="@color/white"
             android:textSize="17dp"
             android:textStyle="bold"
@@ -183,7 +168,7 @@
             android:layout_toRightOf="@+id/button3"
             android:background="@drawable/round_button"
             android:backgroundTint="#496DDA"
-            android:text="C. on"
+            android:text="C"
             android:textColor="@color/white"
             android:textSize="17dp"
             android:textStyle="bold"
@@ -288,8 +273,8 @@
 
     <TextView
         android:id="@+id/textView49"
-        android:layout_width="171dp"
-        android:layout_height="66dp"
+        android:layout_width="173dp"
+        android:layout_height="54dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/round_button"
         android:backgroundTint="@color/main_theme"
@@ -303,7 +288,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.184" />
+        app:layout_constraintVertical_bias="0.18" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

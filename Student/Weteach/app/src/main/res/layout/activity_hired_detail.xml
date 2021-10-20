@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@color/main_theme"
     tools:context=".HireDetailActivity">
-
     <ImageView
         android:id="@+id/imageView26"
         android:layout_width="45dp"
@@ -47,14 +46,14 @@
             tools:layout_editor_absoluteY="2dp">
 
             <LinearLayout
-                android:layout_width="392dp"
-                android:layout_height="693dp"
+                android:layout_width="wrap_content"
+                android:layout_height="899dp"
                 android:orientation="vertical">
 
                 <LinearLayout
                     android:id="@+id/linearLayout11"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="826dp"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/view_bg"
                     android:orientation="vertical"
@@ -101,7 +100,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
@@ -126,29 +125,9 @@
                             android:textStyle="bold" />
                     </LinearLayout>
 
-                    <TextView
-                        android:id="@+id/textView137"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="Teacher" />
-
-                    <TextView
-                        android:id="@+id/textView138"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="Mai Lan Hương"
-                        android:textAlignment="textEnd"
-                        android:textStyle="bold" />
-
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
@@ -173,29 +152,9 @@
                             android:textStyle="bold" />
                     </LinearLayout>
 
-                    <TextView
-                        android:id="@+id/textView139"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="Lession" />
-
-                    <TextView
-                        android:id="@+id/textView140"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="English"
-                        android:textAlignment="textEnd"
-                        android:textStyle="bold" />
-
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
@@ -220,25 +179,33 @@
                             android:textStyle="bold" />
                     </LinearLayout>
 
-                    <TextView
-                        android:id="@+id/textView141"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="Level" />
+                        android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/textView142"
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/nunito_bold"
+                            android:text="Payment"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+
+                    </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnPayment2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="Grade 12"
-                        android:textAlignment="textEnd"
-                        android:textStyle="bold" />
+                        android:backgroundTint="@color/main_theme"
+                        android:text="View Teacher's Payment Account"
+                        android:textColor="@color/edit_text" />
 
                     <LinearLayout
                         android:id="@+id/linearLayout8"
@@ -614,9 +581,19 @@
                         android:layout_width="387dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:background="@color/edit_text"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/roundededittext"
                         android:text="Feedback Your Teacher"
                         android:textColor="@color/black" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnRCancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/roundededittext"
+                        android:backgroundTint="@android:color/holo_red_light"
+                        android:text="Request Cancelling Course"
+                        android:textColor="@color/edit_text" />
 
                 </LinearLayout>
             </LinearLayout>
