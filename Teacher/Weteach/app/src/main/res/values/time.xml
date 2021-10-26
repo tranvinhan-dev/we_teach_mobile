@@ -30,6 +30,12 @@
         <item>Phone Number of Teacher</item>
         <item></item>
     </string-array>
+    <string-array name="subject2">
+        <item>Math</item>
+        <item>History</item>
+        <item>Chemistry</item>
+        <item>English</item>
+    </string-array>
     <string-array name="subject">
         <item>Certificate of Pedagogy for Master</item>
         <item>Certificate of Pedagogy for Intermediate</item>
@@ -102,5 +108,9 @@
     <array name="initial_slider_values">
         <item>1.0</item>
         <item>100.0</item>
+    </array>
+    <array name="gender">
+        <item>male</item>
+        <item>female</item>
     </array>
 </resources>

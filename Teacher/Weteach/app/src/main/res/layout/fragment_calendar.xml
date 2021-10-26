@@ -316,7 +316,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Your class's slots in this week"
+                android:text="Your class' slots in this week"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 

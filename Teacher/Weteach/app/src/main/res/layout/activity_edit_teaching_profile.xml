@@ -31,6 +31,80 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:text="Select your subject"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkBox10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="English" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Math" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="History" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Chemistry" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Biology" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Literature" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <TextView
@@ -67,34 +141,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="360dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"
-
-                    android:text="Select your subject"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="52dp"
-                android:background="@drawable/roundededittext"
-                android:orientation="horizontal">
-
-                <Spinner
-                    android:id="@+id/spinner4"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:entries="@array/subject" />
-            </LinearLayout>
+                android:orientation="horizontal"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -142,7 +189,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 1"
                             android:textSize="16dp" />
@@ -152,7 +199,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -161,7 +208,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
 
@@ -171,7 +218,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 2"
                             android:textSize="16dp" />
@@ -181,7 +228,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -190,7 +237,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
 
@@ -200,7 +247,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 3"
                             android:textSize="16dp" />
@@ -210,7 +257,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -219,7 +266,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
 
@@ -229,7 +276,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 4"
                             android:textSize="16dp" />
@@ -239,7 +286,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -248,7 +295,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
 
@@ -258,7 +305,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 5"
                             android:textSize="16dp" />
@@ -268,7 +315,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -277,7 +324,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
 
@@ -319,7 +366,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 5"
                             android:textSize="16dp" />
@@ -329,7 +376,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -338,7 +385,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
 
@@ -348,7 +395,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 6"
                             android:textSize="16dp" />
@@ -358,7 +405,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -367,7 +414,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
 
@@ -377,7 +424,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 7"
                             android:textSize="16dp" />
@@ -387,7 +434,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -396,7 +443,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
 
@@ -406,7 +453,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 8"
                             android:textSize="16dp" />
@@ -416,7 +463,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -425,7 +472,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
                 </LinearLayout>
@@ -460,7 +507,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 10"
                             android:textSize="16dp" />
@@ -470,7 +517,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -479,7 +526,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
 
@@ -489,7 +536,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 11"
                             android:textSize="16dp" />
@@ -499,7 +546,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -508,7 +555,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
 
@@ -518,7 +565,7 @@
                         android:orientation="horizontal">
 
                         <CheckBox
-                            android:layout_width="158dp"
+                            android:layout_width="133dp"
                             android:layout_height="wrap_content"
                             android:text="Grade 12"
                             android:textSize="16dp" />
@@ -528,7 +575,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Price:"
+                            android:text="Price ($):"
                             android:textSize="16sp" />
 
                         <EditText
@@ -537,7 +584,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="Input price for this grade"
+                            android:hint="Input price ($) for this grade"
                             android:inputType="textPersonName" />
                     </LinearLayout>
 

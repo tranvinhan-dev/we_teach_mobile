@@ -87,16 +87,41 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:padding="10dp">
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:id="@+id/textView123"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundededittext"
+                        android:paddingLeft="20dp"
+                        android:text="English"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView122"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundededittext"
+                        android:paddingLeft="20dp"
+                        android:text="Hitory"
+                        android:textSize="20sp" />
 
                     <TextView
                         android:id="@+id/textView18"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
                         android:layout_weight="1"
+                        android:background="@drawable/roundededittext"
                         android:paddingLeft="20dp"
-                        android:text="English"
+                        android:text="Math"
                         android:textSize="20sp" />
 
                 </LinearLayout>
